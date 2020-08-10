@@ -196,11 +196,11 @@ class MainActivity : BaseActivity() {
         }
         queue?.add(request)
 
-        setAlarm("15:00", resources.getString(R.string.subuh_title),resources.getString(R.string.subuh_message))
-        setAlarm("15:02", resources.getString(R.string.dzuhur_title),resources.getString(R.string.dzuhur_message))
-        setAlarm("15:03", resources.getString(R.string.asar_title),resources.getString(R.string.asar_message))
-        setAlarm("15:04", resources.getString(R.string.magrib_title),resources.getString(R.string.magrib_message))
-        setAlarm("15:05", resources.getString(R.string.isya_title),resources.getString(R.string.isya_message))
+        setAlarm(subuhTime, resources.getString(R.string.subuh_title),resources.getString(R.string.subuh_message))
+        setAlarm(dzuhurTime, resources.getString(R.string.dzuhur_title),resources.getString(R.string.dzuhur_message))
+        setAlarm(asarTime, resources.getString(R.string.asar_title),resources.getString(R.string.asar_message))
+        setAlarm(magribTime, resources.getString(R.string.magrib_title),resources.getString(R.string.magrib_message))
+        setAlarm(isyaTime, resources.getString(R.string.isya_title),resources.getString(R.string.isya_message))
     }
 
     fun setAlarm(salatTime:String, notifTitle:String, notifMessage:String) {
