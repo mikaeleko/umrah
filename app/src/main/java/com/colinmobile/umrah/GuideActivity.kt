@@ -44,6 +44,7 @@ class GuideActivity : AppCompatActivity(){
 
         checkPermission(Manifest.permission.USE_SIP, 10)
         checkPermission(Manifest.permission.RECORD_AUDIO, 20)
+        checkPermission(Manifest.permission.MODIFY_AUDIO_SETTINGS, 10)
 
 //        val pushToTalkButton = findViewById(R.id.pushToTalk) as ToggleButton
 //        pushToTalkButton.setOnTouchListener(this)
@@ -344,7 +345,7 @@ class GuideActivity : AppCompatActivity(){
                 }
             }
 
-            call = manager!!.makeAudioCall(me!!.uriString, sipAddress, listener, 60)
+            call = manager!!.makeAudioCall(me!!.uriString, sipAddress+"@36.66.18.22", listener, 120)
         } catch (e: Exception) {
             Log.i("InitiateCall", "Error when trying to close manager.", e)
             if (me != null) {

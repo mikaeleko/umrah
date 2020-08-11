@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.USE_SIP" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <uses-feature
         android:name="android.hardware.sip.voip"
@@ -57,9 +58,6 @@
             android:name=".SalatReceiver"
             android:label="Salat Receiver" />
 
-        <receiver
-            android:name=".MagribReceiver"
-            android:label="Magrib Receiver" />
     </application>
 
 </manifest>
