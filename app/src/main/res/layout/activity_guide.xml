@@ -24,8 +24,42 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:visibility="visible"
         >
-
+        <RelativeLayout
+            android:id="@+id/login_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/sip_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                />
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/sip_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sip_username"
+                android:hint="@string/password"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sip_password"
+                android:layout_alignParentRight="true"
+                android:text="@string/button_login"
+                />
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/sip_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_layout"
+        >
         <TextView
             android:id="@+id/sip_status"
             android:layout_width="fill_parent"
@@ -74,5 +108,14 @@
             android:text="@string/send_pin"
             />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/log_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/send_pin"
+            android:text="@string/log_out"
+            />
+
+    </RelativeLayout>
     </RelativeLayout>
 </FrameLayout>

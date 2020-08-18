@@ -227,7 +227,11 @@
     <string name="username">username</string>
     <string name="password">password</string>
     <string name="button_ok">OK</string>
+    <string name="button_login">Masuk</string>
     <string name="domain">xx.xx.xx.xx</string>
     <string name="umrah_server">36.66.18.22</string>
     <string name="send_pin">Kirim PIN</string>
+    <string name="connection_error">Koneksi Error</string>
+    <string name="registration_failed">Registrasi gagal. Silakan cek kembali.</string>
+    <string name="log_out">Logout</string>
 </resources>
