@@ -4,6 +4,7 @@ import android.Manifest
 import android.app.AlertDialog
 import android.app.Dialog
 import android.app.PendingIntent
+import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import android.content.IntentFilter
@@ -14,10 +15,7 @@ import android.os.Bundle
 import android.preference.PreferenceManager
 import android.util.Log
 import android.view.*
-import android.widget.EditText
-import android.widget.RelativeLayout
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatEditText
@@ -48,21 +46,15 @@ class GuideActivity : AppCompatActivity(){
         checkPermission(Manifest.permission.RECORD_AUDIO, 20)
         checkPermission(Manifest.permission.MODIFY_AUDIO_SETTINGS, 10)
 
-//        val pushToTalkButton = findViewById(R.id.pushToTalk) as ToggleButton
-//        pushToTalkButton.setOnTouchListener(this)
-
-        // Set up the intent filter.  This will be used to fire an
-        // IncomingCallReceiver when someone calls the SIP address used by this
-        // application.
         val filter = IntentFilter()
         filter.addAction("android.SipDemo.INCOMING_CALL")
         callReceiver = IncomingCallReceiver()
         this.registerReceiver(callReceiver, filter)
 
-        // "Push to talk" can be a serious pain when the screen keeps turning off.
-        // Let's prevent that.
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         initializeManager()
+//        val intent = Intent(this, IncomingCallService::class.java)
+//        startService(intent)
 
         val loginLayout = findViewById<RelativeLayout>(R.id.login_layout)
         val sipLayout = findViewById<RelativeLayout>(R.id.sip_layout)
@@ -71,13 +63,16 @@ class GuideActivity : AppCompatActivity(){
         val password = findViewById<AppCompatEditText>(R.id.sip_password)
         val btnLogin = findViewById<AppCompatButton>(R.id.btn_login)
         btnLogin.setOnClickListener({
-            if(password.text.toString().equals("UmHajj"+username.text.toString())){
+            if (password.text.toString().equals("UmHajj" + username.text.toString())) {
                 initializeManager()
                 if (me != null) {
                     closeLocalProfile()
                 }
                 try {
-                    val builder = SipProfile.Builder(username.text.toString(), resources.getString(R.string.SERVER_URL))
+                    val builder = SipProfile.Builder(
+                        username.text.toString(),
+                        resources.getString(R.string.SERVER_URL)
+                    )
                     builder.setPassword(password.text.toString())
                     me = builder.build()
                     val i = Intent()
@@ -89,31 +84,33 @@ class GuideActivity : AppCompatActivity(){
 
                     // This listener must be added AFTER manager.open is called,
                     // Otherwise the methods aren't guaranteed to fire.
-                    manager!!.setRegistrationListener(me!!.getUriString(), object : SipRegistrationListener {
-                        override fun onRegistering(localProfileUri: String) {
-                            updateStatus("Registering with SIP Server...")
-                        }
+                    manager!!.setRegistrationListener(
+                        me!!.getUriString(),
+                        object : SipRegistrationListener {
+                            override fun onRegistering(localProfileUri: String) {
+                                updateStatus("Registering with SIP Server...")
+                            }
 
-                        override fun onRegistrationDone(
-                            localProfileUri: String,
-                            expiryTime: Long
-                        ) {
-                            updateStatus(username.text.toString()+" ready")
-                        }
+                            override fun onRegistrationDone(
+                                localProfileUri: String,
+                                expiryTime: Long
+                            ) {
+                                updateStatus(username.text.toString() + " ready")
+                            }
 
-                        override fun onRegistrationFailed(
-                            localProfileUri: String, errorCode: Int,
-                            errorMessage: String
-                        ) {
+                            override fun onRegistrationFailed(
+                                localProfileUri: String, errorCode: Int,
+                                errorMessage: String
+                            ) {
 //                        Toast.makeText(
 //                            this@GuideActivity,
 //                            resources.getText(R.string.registration_failed),
 //                            Toast.LENGTH_SHORT
 //                        )
 //                            .show()
-                            updateStatus("Registration failed.  Please check settings.")
-                        }
-                    })
+                                updateStatus("Registration failed.  Please check settings.")
+                            }
+                        })
                 } catch (pe: ParseException) {
 //                Toast.makeText(
 //                    this@GuideActivity,
@@ -131,11 +128,12 @@ class GuideActivity : AppCompatActivity(){
 //                    .show()
                     updateStatus("Connection error.")
                 }
-            }else{
+            } else {
                 Toast.makeText(
                     this@GuideActivity,
                     "username dan password tidak sesuai",
-                    Toast.LENGTH_SHORT).show()
+                    Toast.LENGTH_SHORT
+                ).show()
             }
         })
 
@@ -157,8 +155,8 @@ class GuideActivity : AppCompatActivity(){
             if (callReceiver != null) {
                 unregisterReceiver(callReceiver)
             }
-            loginLayout.visibility=View.VISIBLE
-            sipLayout.visibility=View.GONE
+            loginLayout.visibility = View.VISIBLE
+            sipLayout.visibility = View.GONE
         })
 
         val sipCall = findViewById<AppCompatButton>(R.id.sip_call)
@@ -166,11 +164,11 @@ class GuideActivity : AppCompatActivity(){
 
         sipCall.setOnClickListener({
             val textField = findViewById(R.id.sip_destination) as EditText
-                sipAddress = textField.text.toString()
+            sipAddress = textField.text.toString()
             initiateCall()
         })
-        endCall.setOnClickListener({
-            HANG_UP -> if (call != null) {
+        endCall.setOnClickListener({ HANG_UP ->
+            if (call != null) {
                 try {
                     call!!.endCall()
                     updateStatus("Ready")
@@ -191,9 +189,9 @@ class GuideActivity : AppCompatActivity(){
             val prefs =
                 PreferenceManager.getDefaultSharedPreferences(baseContext)
             val username = prefs.getString("namePref", "")
-            if(username.equals("10001")){
-               code = 1
-            }else{
+            if (username.equals("10001")) {
+                code = 1
+            } else {
                 code = 2
             }
             call?.sendDtmf(code)
@@ -224,11 +222,91 @@ class GuideActivity : AppCompatActivity(){
             call?.setSpeakerMode(true)
             call?.toggleMute()
         })
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
+    }
+
+    private fun showAcceptReject(context: Context){
+        if (manager == null) {
+            manager = SipManager.newInstance(this)
+        }
+        val filter = IntentFilter()
+        filter.addAction("android.SipDemo.INCOMING_CALL")
+        callReceiver = IncomingCallReceiver()
+        this.registerReceiver(callReceiver, filter)
+        if (callReceiver != null) {
+            unregisterReceiver(callReceiver)
+        }
+        val builder = AlertDialog.Builder(context)
+        builder.setPositiveButton(resources.getText(R.string.accept)) { dialog, which ->
+
+            callReceiver?.accept()
+//            var incomingCall: SipAudioCall? = null
+//            try {
+//                val listener: SipAudioCall.Listener = object : SipAudioCall.Listener() {
+//                    override fun onRinging(call: SipAudioCall, caller: SipProfile) {
+//                        try {
+//                            call.answerCall(30)
+//
+//                        } catch (e: Exception) {
+//                            e.printStackTrace()
+//                        }
+//                    }
+//                }
+//
+//            incomingCall = wtActivity.manager?.takeAudioCall(intent, listener)
+//            incomingCall?.answerCall(30)
+//            incomingCall?.startAudio()
+//            incomingCall?.setSpeakerMode(true)
+//            if (incomingCall?.isMuted!!) {
+//                incomingCall?.toggleMute()
+//            }
+//            wtActivity.call = incomingCall
+//            wtActivity.updateStatus(incomingCall!!)
+//
+//            } catch (e: Exception) {
+//                incomingCall?.close()
+//            }
+        }
+
+        builder.setNegativeButton(resources.getText(R.string.reject)) { dialog, which ->
+            onBackPressed()
+        }
+        builder.show()
+//        val dialog = Dialog(context)
+//        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+//        dialog.setCancelable(false)
+//        dialog.setContentView(R.layout.login_dialog)
+////        val body = dialog.findViewById(R.id.description) as TextView
+////        body.text = title
+//        val loginBtn = dialog.findViewById(R.id.login_button) as Button
+//        val registerBtn = dialog.findViewById(R.id.register_button) as Button
+//        loginBtn.setOnClickListener {
+//            dialog.dismiss()
+//        }
+//        registerBtn.setOnClickListener { dialog.dismiss() }
+//        dialog.show()
+    }
+
+    private fun showDialog(context: Context) {
+        val dialog = Dialog(context)
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        dialog.setCancelable(false)
+        dialog.setContentView(R.layout.login_dialog)
+//        val body = dialog.findViewById(R.id.description) as TextView
+//        body.text = title
+        val loginBtn = dialog.findViewById(R.id.login_button) as Button
+        val registerBtn = dialog.findViewById(R.id.register_button) as Button
+        loginBtn.setOnClickListener {
+            dialog.dismiss()
+        }
+        registerBtn.setOnClickListener { dialog.dismiss() }
+        dialog.show()
+
     }
 
     override fun onStart() {
@@ -279,13 +357,17 @@ class GuideActivity : AppCompatActivity(){
 //            showDialog(UPDATE_SETTINGS_DIALOG)
             loginLayout.visibility = View.VISIBLE
             sipLayout.visibility = View.GONE
+            showDialog(this)
             return
         }else{
             loginLayout.visibility = View.GONE
             sipLayout.visibility = View.VISIBLE
         }
         try {
-            val builder = SipProfile.Builder(username.toString(), resources.getString(R.string.SERVER_URL))
+            val builder = SipProfile.Builder(
+                username.toString(),
+                resources.getString(R.string.SERVER_URL)
+            )
             builder.setPassword(password.toString())
             me = builder.build()
             val i = Intent()
@@ -295,25 +377,27 @@ class GuideActivity : AppCompatActivity(){
 
             // This listener must be added AFTER manager.open is called,
             // Otherwise the methods aren't guaranteed to fire.
-            manager!!.setRegistrationListener(me!!.getUriString(), object : SipRegistrationListener {
-                override fun onRegistering(localProfileUri: String) {
-                    updateStatus("Registering with SIP Server...")
-                }
+            manager!!.setRegistrationListener(
+                me!!.getUriString(),
+                object : SipRegistrationListener {
+                    override fun onRegistering(localProfileUri: String) {
+                        updateStatus("Registering with SIP Server...")
+                    }
 
-                override fun onRegistrationDone(
-                    localProfileUri: String,
-                    expiryTime: Long
-                ) {
-                    updateStatus(username+" ready")
-                }
+                    override fun onRegistrationDone(
+                        localProfileUri: String,
+                        expiryTime: Long
+                    ) {
+                        updateStatus(username + " ready")
+                    }
 
-                override fun onRegistrationFailed(
-                    localProfileUri: String, errorCode: Int,
-                    errorMessage: String
-                ) {
-                    updateStatus("Registration failed.  Please check settings.")
-                }
-            })
+                    override fun onRegistrationFailed(
+                        localProfileUri: String, errorCode: Int,
+                        errorMessage: String
+                    ) {
+                        updateStatus("Registration failed.  Please check settings.")
+                    }
+                })
         } catch (pe: ParseException) {
             updateStatus("Connection Error.")
         } catch (se: SipException) {
@@ -451,7 +535,12 @@ class GuideActivity : AppCompatActivity(){
                 }
             }
 
-            call = manager!!.makeAudioCall(me!!.uriString, sipAddress+"@"+resources.getString(R.string.SERVER_URL), listener, 120)
+            call = manager!!.makeAudioCall(
+                me!!.uriString,
+                sipAddress + "@" + resources.getString(R.string.SERVER_URL),
+                listener,
+                120
+            )
         } catch (e: Exception) {
             Log.i("InitiateCall", "Error when trying to close manager.", e)
             if (me != null) {
@@ -537,7 +626,7 @@ class GuideActivity : AppCompatActivity(){
                         DialogInterface.OnClickListener { dialog, whichButton ->
                             val textField =
                                 textBoxView.findViewById(R.id.calladdress_edit) as EditText
-                                sipAddress = textField.text.toString()
+                            sipAddress = textField.text.toString()
                             initiateCall()
                         })
                     .setNegativeButton(
@@ -568,4 +657,5 @@ class GuideActivity : AppCompatActivity(){
         )
         startActivity(settingsActivity)
     }
+
 }

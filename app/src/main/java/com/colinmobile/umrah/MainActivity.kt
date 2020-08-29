@@ -11,14 +11,12 @@ import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.DisplayMetrics
 import android.util.Log
 import android.view.*
 import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.android.volley.Request
 import com.android.volley.Response
@@ -49,11 +47,11 @@ class MainActivity : BaseActivity() {
         val constraintSalat = findViewById(R.id.constraint_salat_schedule)as ConstraintLayout
         constraintSalat.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, SalatActivity::class.java)
-            i.putExtra("subuh",subuhTime)
-            i.putExtra("dzuhur",dzuhurTime)
-            i.putExtra("asar",asarTime)
-            i.putExtra("magrib",magribTime)
-            i.putExtra("isya",isyaTime)
+            i.putExtra("subuh", subuhTime)
+            i.putExtra("dzuhur", dzuhurTime)
+            i.putExtra("asar", asarTime)
+            i.putExtra("magrib", magribTime)
+            i.putExtra("isya", isyaTime)
             startActivity(i)
         })
 
@@ -66,7 +64,7 @@ class MainActivity : BaseActivity() {
         val constraintMosque = findViewById(R.id.constraint_mosque)as ConstraintLayout
         constraintMosque.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
-            i.putExtra("type","mosque")
+            i.putExtra("type", "mosque")
             startActivity(i)
         })
 
@@ -85,56 +83,56 @@ class MainActivity : BaseActivity() {
         val constraintRestaurant = findViewById(R.id.constraint_restaurant)as ConstraintLayout
         constraintRestaurant.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
-            i.putExtra("type","restaurant")
+            i.putExtra("type", "restaurant")
             startActivity(i)
         })
 
         val constraintAtm = findViewById(R.id.constraint_atm)as ConstraintLayout
         constraintAtm.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
-            i.putExtra("type","atm")
+            i.putExtra("type", "atm")
             startActivity(i)
         })
 
         val constraintShop = findViewById(R.id.constraint_shop)as ConstraintLayout
         constraintShop.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
-            i.putExtra("type","shop")
+            i.putExtra("type", "shop")
             startActivity(i)
         })
 
         val constraintHospital = findViewById(R.id.constraint_hospital)as ConstraintLayout
         constraintHospital.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
-            i.putExtra("type","hospital")
+            i.putExtra("type", "hospital")
             startActivity(i)
         })
 
         val constraintPharmacy = findViewById(R.id.constraint_pharmacy)as ConstraintLayout
         constraintPharmacy.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
-            i.putExtra("type","pharmacy")
+            i.putExtra("type", "pharmacy")
             startActivity(i)
         })
 
         val constraintMoneyExchange = findViewById(R.id.constraint_money_exchange)as ConstraintLayout
         constraintMoneyExchange.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
-            i.putExtra("type","money exchange")
+            i.putExtra("type", "money exchange")
             startActivity(i)
         })
 
         val constraintCarRent = findViewById(R.id.constraint_car_rent)as ConstraintLayout
         constraintCarRent.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
-            i.putExtra("type","car rent")
+            i.putExtra("type", "car rent")
             startActivity(i)
         })
 
         val constraintBusStation = findViewById(R.id.constraint_bus_station)as ConstraintLayout
         constraintBusStation.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
-            i.putExtra("type","bus station")
+            i.putExtra("type", "bus station")
             startActivity(i)
         })
 
@@ -146,41 +144,72 @@ class MainActivity : BaseActivity() {
         val url = "http://api.aladhan.com/v1/calendarByCity?city=Mecca&country=Saudi%20Arabia&method=2&year=2020"
         val dialog = setProgressDialog(this, "Loading..")
         dialog.show()
-        val request = JsonObjectRequest(Request.Method.GET, url.toString(),null, Response.Listener{
-                response ->
-            try {
-                if(response!=null){
-                    try {
-                        if (response.getString("status").equals("OK", ignoreCase = true)) {
-                            val data = response.getJSONArray("data")
-                            for (i in 0 until data.length()) {
-                                val timings = data.getJSONObject(i)
-                                subuhTime = timings.getJSONObject("timings").getString("Sunrise").toString().substring(0, 5)
-                                dzuhurTime = timings.getJSONObject("timings").getString("Dhuhr").toString().substring(0, 5)
-                                asarTime = timings.getJSONObject("timings").getString("Asr").toString().substring(0, 5)
-                                magribTime = timings.getJSONObject("timings").getString("Maghrib").toString().substring(0, 5)
-                                isyaTime = timings.getJSONObject("timings").getString("Isha").toString().substring(0, 5)
+        val request = JsonObjectRequest(
+            Request.Method.GET,
+            url.toString(),
+            null,
+            Response.Listener { response ->
+                try {
+                    if (response != null) {
+                        try {
+                            if (response.getString("status").equals("OK", ignoreCase = true)) {
+                                val data = response.getJSONArray("data")
+                                for (i in 0 until data.length()) {
+                                    val timings = data.getJSONObject(i)
+                                    subuhTime =
+                                        timings.getJSONObject("timings").getString("Sunrise")
+                                            .toString().substring(
+                                            0,
+                                            5
+                                        )
+                                    dzuhurTime = timings.getJSONObject("timings").getString("Dhuhr")
+                                        .toString().substring(
+                                        0,
+                                        5
+                                    )
+                                    asarTime =
+                                        timings.getJSONObject("timings").getString("Asr").toString()
+                                            .substring(
+                                                0,
+                                                5
+                                            )
+                                    magribTime =
+                                        timings.getJSONObject("timings").getString("Maghrib")
+                                            .toString().substring(
+                                            0,
+                                            5
+                                        )
+                                    isyaTime = timings.getJSONObject("timings").getString("Isha")
+                                        .toString().substring(
+                                        0,
+                                        5
+                                    )
+                                    dialog.dismiss()
+                                }
+                            } else if (response.getString("status").equals(
+                                    "ZERO_RESULTS",
+                                    ignoreCase = true
+                                )
+                            ) {
+                                Log.i("JSON response 2b", response.getString("status"))
                                 dialog.dismiss()
                             }
-                        } else if (response.getString("status").equals("ZERO_RESULTS", ignoreCase = true)) {
-                            Log.i("JSON response 2b", response.getString("status"))
+                        } catch (e: JSONException) {
+                            e.printStackTrace()
                             dialog.dismiss()
                         }
-                    } catch (e: JSONException) {
-                        e.printStackTrace()
-                        dialog.dismiss()
                     }
+                } catch (e: JSONException) {
+                    e.printStackTrace()
+                    dialog.dismiss()
                 }
-            } catch (e: JSONException) {
-                e.printStackTrace()
-                dialog.dismiss()
-            }
-        }, Response.ErrorListener { error ->
-            if(error!=null){
-                error.printStackTrace()
-                dialog.dismiss()
-            }
-        })
+            },
+            Response.ErrorListener { error ->
+                if (error != null) {
+                    error.printStackTrace()
+                    dialog.dismiss()
+                }
+            })
         request.retryPolicy = object : RetryPolicy {
             override fun getCurrentTimeout(): Int {
                 return 50000
@@ -196,14 +225,34 @@ class MainActivity : BaseActivity() {
         }
         queue?.add(request)
 
-        setAlarm(subuhTime, resources.getString(R.string.subuh_title),resources.getString(R.string.subuh_message))
-        setAlarm(dzuhurTime, resources.getString(R.string.dzuhur_title),resources.getString(R.string.dzuhur_message))
-        setAlarm(asarTime, resources.getString(R.string.asar_title),resources.getString(R.string.asar_message))
-        setAlarm(magribTime, resources.getString(R.string.magrib_title),resources.getString(R.string.magrib_message))
-        setAlarm(isyaTime, resources.getString(R.string.isya_title),resources.getString(R.string.isya_message))
+        setAlarm(
+            subuhTime,
+            resources.getString(R.string.subuh_title),
+            resources.getString(R.string.subuh_message)
+        )
+        setAlarm(
+            dzuhurTime,
+            resources.getString(R.string.dzuhur_title),
+            resources.getString(R.string.dzuhur_message)
+        )
+        setAlarm(
+            asarTime,
+            resources.getString(R.string.asar_title),
+            resources.getString(R.string.asar_message)
+        )
+        setAlarm(
+            magribTime,
+            resources.getString(R.string.magrib_title),
+            resources.getString(R.string.magrib_message)
+        )
+        setAlarm(
+            isyaTime,
+            resources.getString(R.string.isya_title),
+            resources.getString(R.string.isya_message)
+        )
     }
 
-    fun setAlarm(salatTime:String, notifTitle:String, notifMessage:String) {
+    fun setAlarm(salatTime: String, notifTitle: String, notifMessage: String) {
 //        val alertTime: Long = GregorianCalendar().getTimeInMillis() + 7 * 1000
         var requestCode = (0..1000).random()
         val todayDate = Calendar.getInstance().time
@@ -211,10 +260,10 @@ class MainActivity : BaseActivity() {
         val todayString = formatter.format(todayDate)
 
         val sdf = SimpleDateFormat("yyyy/MM/dd HH:mm")
-        val date: Date = sdf.parse(todayString+" "+salatTime)
+        val date: Date = sdf.parse(todayString + " " + salatTime)
         val alertTime = date.time
-        Log.i("salatTime", "ReqCode : "+requestCode)
-        Log.i("salatTime", "Time : "+alertTime)
+        Log.i("salatTime", "ReqCode : " + requestCode)
+        Log.i("salatTime", "Time : " + alertTime)
 
         val alertIntent = Intent(applicationContext, SalatReceiver::class.java)
         alertIntent.putExtra("requestCode", requestCode)
@@ -229,7 +278,7 @@ class MainActivity : BaseActivity() {
         )
     }
 
-    fun setProgressDialog(context: Context, message:String): AlertDialog {
+    fun setProgressDialog(context: Context, message: String): AlertDialog {
         val llPadding = 30
         val ll = LinearLayout(context)
         ll.orientation = LinearLayout.HORIZONTAL
@@ -237,7 +286,8 @@ class MainActivity : BaseActivity() {
         ll.gravity = Gravity.CENTER
         var llParam = LinearLayout.LayoutParams(
             LinearLayout.LayoutParams.WRAP_CONTENT,
-            LinearLayout.LayoutParams.WRAP_CONTENT)
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
         llParam.gravity = Gravity.CENTER
         ll.layoutParams = llParam
 
@@ -248,7 +298,8 @@ class MainActivity : BaseActivity() {
 
         llParam = LinearLayout.LayoutParams(
             ViewGroup.LayoutParams.WRAP_CONTENT,
-            ViewGroup.LayoutParams.WRAP_CONTENT)
+            ViewGroup.LayoutParams.WRAP_CONTENT
+        )
         llParam.gravity = Gravity.CENTER
         val tvText = TextView(context)
         tvText.text = message

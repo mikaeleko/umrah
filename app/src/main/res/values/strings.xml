@@ -227,6 +227,12 @@
     <string name="connection_error">Connection Error</string>
     <string name="registration_failed">Registration failed. Please check again.</string>
     <string name="log_out">Logout</string>
+    <string name="warning_login">Untuk melihat menu ini silahkan login dengan akun yang sudah terdaftar</string>
+    <string name="title_warning_login">Dibutuhkan Login</string>
+    <string name="incoming_call_title">Incoming Call</string>
+    <string name="incoming_call_message">Click to see details</string>
+    <string name="accept">Terima</string>
+    <string name="reject">Tolak</string>
 
     <string-array name="spinner_languages">
         <item>English</item>

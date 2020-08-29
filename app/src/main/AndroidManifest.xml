@@ -29,6 +29,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service
+            android:name=".IncomingCallService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".IncomingScreen" />
         <activity android:name=".InformationActivity" />
         <activity android:name=".SalatActivity" />
         <activity android:name=".PrayerActivity" />
@@ -53,11 +59,9 @@
         <receiver
             android:name=".IncomingCallReceiver"
             android:label="Call Receiver" />
-
         <receiver
             android:name=".SalatReceiver"
             android:label="Salat Receiver" />
-
     </application>
 
 </manifest>
