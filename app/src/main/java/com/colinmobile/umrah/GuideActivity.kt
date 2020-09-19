@@ -4,10 +4,7 @@ import android.Manifest
 import android.app.AlertDialog
 import android.app.Dialog
 import android.app.PendingIntent
-import android.content.Context
-import android.content.DialogInterface
-import android.content.Intent
-import android.content.IntentFilter
+import android.content.*
 import android.content.pm.PackageManager
 import android.net.ParseException
 import android.net.sip.*
@@ -15,13 +12,17 @@ import android.os.Bundle
 import android.preference.PreferenceManager
 import android.util.Log
 import android.view.*
-import android.widget.*
+import android.widget.EditText
+import android.widget.RelativeLayout
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import java.util.concurrent.TimeUnit
+
 
 class GuideActivity : AppCompatActivity(){
     var sipAddress: String? = null
@@ -35,6 +36,8 @@ class GuideActivity : AppCompatActivity(){
     private val SET_AUTH_INFO = 2
     private val UPDATE_SETTINGS_DIALOG = 3
     private val HANG_UP = 4
+    var broadcastReceiver: BroadcastReceiver? = null
+    var Microphone_Plugged_in = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,13 +49,40 @@ class GuideActivity : AppCompatActivity(){
         checkPermission(Manifest.permission.RECORD_AUDIO, 20)
         checkPermission(Manifest.permission.MODIFY_AUDIO_SETTINGS, 10)
 
+        broadcastReceiver = object : BroadcastReceiver() {
+            override fun onReceive(context: Context?, intent: Intent) {
+                val action = intent.action
+                val iii: Int
+                if (Intent.ACTION_HEADSET_PLUG == action) {
+                    iii = intent.getIntExtra("state", -1)
+                    if (iii == 0) {
+                        Microphone_Plugged_in = false
+                        Toast.makeText(
+                            applicationContext,
+                            "headset tidak terpasang",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+                    if (iii == 1) {
+                        Microphone_Plugged_in = true
+                        Toast.makeText(
+                            applicationContext, "headset terpasang",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+                }
+            }
+        }
+        val receiverFilter = IntentFilter(Intent.ACTION_HEADSET_PLUG)
+        registerReceiver(broadcastReceiver, receiverFilter)
+
         val filter = IntentFilter()
         filter.addAction("android.SipDemo.INCOMING_CALL")
         callReceiver = IncomingCallReceiver()
         this.registerReceiver(callReceiver, filter)
 
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
-        initializeManager()
+//        initializeManager()
 //        val intent = Intent(this, IncomingCallService::class.java)
 //        startService(intent)
 
@@ -64,10 +94,21 @@ class GuideActivity : AppCompatActivity(){
         val btnLogin = findViewById<AppCompatButton>(R.id.btn_login)
         btnLogin.setOnClickListener({
             if (password.text.toString().equals("UmHajj" + username.text.toString())) {
-                initializeManager()
+                if (manager == null) {
+                    manager = SipManager.newInstance(this)
+                }
+//                initializeLocalProfile()
+
                 if (me != null) {
                     closeLocalProfile()
                 }
+
+                val prefs = PreferenceManager.getDefaultSharedPreferences(baseContext).edit()
+                prefs.putString("namePref", username.text.toString())
+//        val domain = prefs.getString("domainPref", "")
+                prefs.putString("passPref", "UmHajj" + username.text.toString())
+                prefs.apply()
+
                 try {
                     val builder = SipProfile.Builder(
                         username.text.toString(),
@@ -219,7 +260,11 @@ class GuideActivity : AppCompatActivity(){
                 e.printStackTrace()
             }
             call?.startAudio()
-            call?.setSpeakerMode(true)
+            if(Microphone_Plugged_in){
+                call?.setSpeakerMode(false)
+            }else{
+                call?.setSpeakerMode(true)
+            }
             call?.toggleMute()
         })
 
@@ -230,89 +275,14 @@ class GuideActivity : AppCompatActivity(){
         return true
     }
 
-    private fun showAcceptReject(context: Context){
-        if (manager == null) {
-            manager = SipManager.newInstance(this)
-        }
-        val filter = IntentFilter()
-        filter.addAction("android.SipDemo.INCOMING_CALL")
-        callReceiver = IncomingCallReceiver()
-        this.registerReceiver(callReceiver, filter)
-        if (callReceiver != null) {
-            unregisterReceiver(callReceiver)
-        }
-        val builder = AlertDialog.Builder(context)
-        builder.setPositiveButton(resources.getText(R.string.accept)) { dialog, which ->
-
-            callReceiver?.accept()
-//            var incomingCall: SipAudioCall? = null
-//            try {
-//                val listener: SipAudioCall.Listener = object : SipAudioCall.Listener() {
-//                    override fun onRinging(call: SipAudioCall, caller: SipProfile) {
-//                        try {
-//                            call.answerCall(30)
-//
-//                        } catch (e: Exception) {
-//                            e.printStackTrace()
-//                        }
-//                    }
-//                }
-//
-//            incomingCall = wtActivity.manager?.takeAudioCall(intent, listener)
-//            incomingCall?.answerCall(30)
-//            incomingCall?.startAudio()
-//            incomingCall?.setSpeakerMode(true)
-//            if (incomingCall?.isMuted!!) {
-//                incomingCall?.toggleMute()
-//            }
-//            wtActivity.call = incomingCall
-//            wtActivity.updateStatus(incomingCall!!)
-//
-//            } catch (e: Exception) {
-//                incomingCall?.close()
-//            }
-        }
-
-        builder.setNegativeButton(resources.getText(R.string.reject)) { dialog, which ->
-            onBackPressed()
-        }
-        builder.show()
-//        val dialog = Dialog(context)
-//        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
-//        dialog.setCancelable(false)
-//        dialog.setContentView(R.layout.login_dialog)
-////        val body = dialog.findViewById(R.id.description) as TextView
-////        body.text = title
-//        val loginBtn = dialog.findViewById(R.id.login_button) as Button
-//        val registerBtn = dialog.findViewById(R.id.register_button) as Button
-//        loginBtn.setOnClickListener {
-//            dialog.dismiss()
-//        }
-//        registerBtn.setOnClickListener { dialog.dismiss() }
-//        dialog.show()
-    }
-
-    private fun showDialog(context: Context) {
-        val dialog = Dialog(context)
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
-        dialog.setCancelable(false)
-        dialog.setContentView(R.layout.login_dialog)
-//        val body = dialog.findViewById(R.id.description) as TextView
-//        body.text = title
-        val loginBtn = dialog.findViewById(R.id.login_button) as Button
-        val registerBtn = dialog.findViewById(R.id.register_button) as Button
-        loginBtn.setOnClickListener {
-            dialog.dismiss()
-        }
-        registerBtn.setOnClickListener { dialog.dismiss() }
-        dialog.show()
-
-    }
-
     override fun onStart() {
         super.onStart()
         // When we get back from the preference setting Activity, assume
         // settings have changed, and re-login with new auth info.
+        val filter = IntentFilter()
+        filter.addAction("android.SipDemo.INCOMING_CALL")
+        callReceiver = IncomingCallReceiver()
+        this.registerReceiver(callReceiver, filter)
         initializeManager()
     }
 
@@ -357,7 +327,7 @@ class GuideActivity : AppCompatActivity(){
 //            showDialog(UPDATE_SETTINGS_DIALOG)
             loginLayout.visibility = View.VISIBLE
             sipLayout.visibility = View.GONE
-            showDialog(this)
+//            showDialog(this)
             return
         }else{
             loginLayout.visibility = View.GONE
@@ -523,7 +493,11 @@ class GuideActivity : AppCompatActivity(){
                 // forget to set up a listener to set things up once the call is established.
                 override fun onCallEstablished(call: SipAudioCall) {
                     call.startAudio()
-                    call.setSpeakerMode(true)
+                    if(Microphone_Plugged_in){
+                        call?.setSpeakerMode(false)
+                    }else{
+                        call?.setSpeakerMode(true)
+                    }
                     call.toggleMute()
                     updateStatus(call)
 //                    setCallButton(View.GONE, View.VISIBLE)

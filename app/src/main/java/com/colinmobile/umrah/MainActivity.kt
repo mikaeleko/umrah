@@ -1,6 +1,8 @@
 package com.colinmobile.umrah
 
 import android.app.AlarmManager
+import android.app.NotificationChannel
+import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
@@ -9,6 +11,7 @@ import android.content.res.Configuration
 import android.content.res.Resources
 import android.graphics.Color
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
@@ -16,6 +19,7 @@ import android.view.*
 import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.android.volley.Request
@@ -24,6 +28,7 @@ import com.android.volley.RetryPolicy
 import com.android.volley.VolleyError
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import com.google.android.gms.tasks.OnCompleteListener
 import org.json.JSONException
 import java.text.SimpleDateFormat
 import java.util.*
@@ -43,6 +48,33 @@ class MainActivity : BaseActivity() {
         supportActionBar?.setDisplayShowHomeEnabled(true)
         supportActionBar?.setDisplayUseLogoEnabled(true)
         supportActionBar?.setIcon(R.mipmap.ic_launcher)
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            // Create channel to show notifications.
+            val channelId = getString(R.string.default_notification_channel_id)
+            val channelName = getString(R.string.default_notification_channel_name)
+            val notificationManager = getSystemService(NotificationManager::class.java)
+            notificationManager?.createNotificationChannel(
+                NotificationChannel(channelId,
+                channelName, NotificationManager.IMPORTANCE_LOW)
+            )
+        }
+
+        // If a notification message is tapped, any data accompanying the notification
+        // message is available in the intent extras. In this sample the launcher
+        // intent is fired when the notification is tapped, so any accompanying data would
+        // be handled here. If you want a different intent fired, set the click_action
+        // field of the notification message to the desired intent. The launcher intent
+        // is used when no click_action is specified.
+        //
+        // Handle possible data accompanying notification message.
+        // [START handle_data_extras]
+        intent.extras?.let {
+            for (key in it.keySet()) {
+                val value = intent.extras?.get(key)
+//                Log.d(TAG, "Key: $key Value: $value")
+            }
+        }
 
         val constraintSalat = findViewById(R.id.constraint_salat_schedule)as ConstraintLayout
         constraintSalat.setOnClickListener(View.OnClickListener {
@@ -159,14 +191,14 @@ class MainActivity : BaseActivity() {
                                     subuhTime =
                                         timings.getJSONObject("timings").getString("Sunrise")
                                             .toString().substring(
+                                                0,
+                                                5
+                                            )
+                                    dzuhurTime = timings.getJSONObject("timings").getString("Dhuhr")
+                                        .toString().substring(
                                             0,
                                             5
                                         )
-                                    dzuhurTime = timings.getJSONObject("timings").getString("Dhuhr")
-                                        .toString().substring(
-                                        0,
-                                        5
-                                    )
                                     asarTime =
                                         timings.getJSONObject("timings").getString("Asr").toString()
                                             .substring(
@@ -176,14 +208,14 @@ class MainActivity : BaseActivity() {
                                     magribTime =
                                         timings.getJSONObject("timings").getString("Maghrib")
                                             .toString().substring(
+                                                0,
+                                                5
+                                            )
+                                    isyaTime = timings.getJSONObject("timings").getString("Isha")
+                                        .toString().substring(
                                             0,
                                             5
                                         )
-                                    isyaTime = timings.getJSONObject("timings").getString("Isha")
-                                        .toString().substring(
-                                        0,
-                                        5
-                                    )
                                     dialog.dismiss()
                                 }
                             } else if (response.getString("status").equals(

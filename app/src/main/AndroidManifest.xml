@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <uses-feature
-        android:name="android.hardware.sip.voip"
+        android:name="android.software.sip.voip"
         android:required="true" />
     <uses-feature
         android:name="android.hardware.wifi"
@@ -33,6 +33,15 @@
             android:name=".IncomingCallService"
             android:enabled="true"
             android:exported="true"></service>
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
 
         <activity android:name=".IncomingScreen" />
         <activity android:name=".InformationActivity" />

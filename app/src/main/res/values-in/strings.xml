@@ -240,4 +240,7 @@
     <string name="incoming_call_message">Click to see details</string>
     <string name="accept">Terima</string>
     <string name="reject">Tolak</string>
+    <string name="default_notification_channel_id">001</string>
+    <string name="fcm_message">notif</string>
+    <string name="default_notification_channel_name">liveumhajj</string>
 </resources>

@@ -20,12 +20,6 @@ import com.google.android.gms.maps.model.MarkerOptions
 import org.json.JSONException
 import org.json.JSONObject
 
-fun Context.NearbyIntent(): Intent {
-    return Intent(this, NearbyActivity::class.java).apply {
-//        putExtra(INTENT_USER_ID, user.id)
-        Log.i("test","ok")
-    }
-}
 class NearbyActivity : AppCompatActivity(), OnMapReadyCallback {
 //    var mMap: GoogleMap? = null
     var requestQueue: RequestQueue? = null
@@ -127,7 +121,6 @@ class NearbyActivity : AppCompatActivity(), OnMapReadyCallback {
                 mMap?.clear()
                 for (i in 0 until jsonArray.length()) {
                     val place = jsonArray.getJSONObject(i)
-                    id = place.getString(SUPERMARKET_ID)
                     place_id = place.getString(PLACE_ID)
                     if (!place.isNull(NAME)) {
                         placeName = place.getString(NAME)

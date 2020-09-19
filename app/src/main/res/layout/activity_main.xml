@@ -28,6 +28,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         >
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraint_time"
             android:layout_width="match_parent"
@@ -39,6 +40,20 @@
             app:layout_constraintTop_toTopOf="parent"
             >
             <TextClock
+                android:id="@+id/tv_time_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textSize="16pt"
+                android:textColor="@android:color/black"
+                android:timeZone="Asia/Jakarta"
+                android:background="@android:color/white"
+                app:layout_constraintBottom_toTopOf="@id/tv_jakarta"
+                app:layout_constraintRight_toLeftOf="@id/tv_time"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:targetApi="jelly_bean_mr1" />
+            <TextClock
                 android:id="@+id/tv_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -47,11 +62,37 @@
                 android:textColor="@android:color/black"
                 android:timeZone="Asia/Riyadh"
                 android:background="@android:color/white"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tv_riyadh"
+                app:layout_constraintLeft_toRightOf="@id/tv_time_id"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:targetApi="jelly_bean_mr1" />
+            <TextView
+                android:id="@+id/tv_riyadh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riyadh"
+                android:textSize="10pt"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/tv_time_id"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_time"
+                />
+            <TextView
+                android:id="@+id/tv_jakarta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jakarta"
+                android:textSize="10pt"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/tv_riyadh"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_time_id"
+                />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraint_guide"
