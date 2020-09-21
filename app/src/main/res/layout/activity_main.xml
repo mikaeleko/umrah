@@ -246,18 +246,53 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_howto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/constraint_live_guide"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/constraint_guide"
+            android:background="#77dd77"
+            tools:ignore="NotSibling">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_howto"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:padding="12dp"
+                android:src="@drawable/ic_prayer_menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/tv_howto"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_howto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/howto"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/img_howto"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraint_live_guide"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#77dd77"
             android:layout_marginBottom="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/constraint_howto"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/constraint_guide"
             >
+
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/img_live_guide"
                 android:layout_width="72dp"
@@ -276,6 +311,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/live_guide"
                 android:textColor="@android:color/black"
+                android:layout_marginRight="12dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintLeft_toRightOf="@id/img_live_guide"

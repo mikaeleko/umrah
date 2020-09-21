@@ -112,6 +112,12 @@ class MainActivity : BaseActivity() {
             startActivity(i)
         })
 
+        val constraintHowto = findViewById(R.id.constraint_howto)as ConstraintLayout
+        constraintHowto.setOnClickListener(View.OnClickListener {
+            val i = Intent(this@MainActivity, HowtoActivity::class.java)
+            startActivity(i)
+        })
+
         val constraintRestaurant = findViewById(R.id.constraint_restaurant)as ConstraintLayout
         constraintRestaurant.setOnClickListener(View.OnClickListener {
             val i = Intent(this@MainActivity, NearbyActivity::class.java)
