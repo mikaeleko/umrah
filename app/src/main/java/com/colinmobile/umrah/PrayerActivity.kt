@@ -95,13 +95,13 @@ class PrayerActivity : AppCompatActivity() {
         val pray_title_ten: MutableList<String> = ArrayList()
         pray_title_ten.add(resources.getString(R.string.pray_detail_ten))
         pray_title_ten.add(resources.getString(R.string.pray_arab_ten))
-        pray_title_ten.add(resources.getString(R.string.pray_detail_ten))
+//        pray_title_ten.add(resources.getString(R.string.pray_detail_ten))
 
         val pray_title_eleven: MutableList<String> = ArrayList()
         pray_title_eleven.add(resources.getString(R.string.pray_arab_eleven))
         pray_title_eleven.add(resources.getString(R.string.pray_detail_eleven))
-        expandableListDetail[resources.getString(R.string.pray_title_eleven)] = pray_title_eleven
 
+        expandableListDetail[resources.getString(R.string.pray_title_eleven)] = pray_title_eleven
         expandableListDetail[resources.getString(R.string.pray_title_ten)] = pray_title_ten
         expandableListDetail[resources.getString(R.string.pray_title_nine)] = pray_title_nine
         expandableListDetail[resources.getString(R.string.pray_title_eight)] = pray_title_eight

@@ -195,7 +195,7 @@
     <string name="pray_title_thirty_three">Doa Setelah Selesai Menggunting Rambut</string>
     <string name="pray_detail_thirty_three">/"Segala puji bagi Allah yang telah menyelesaikan manasik kami, Ya Allah tambahkanlah kepada kami iman, keyakinan, dan pertolongan dan ampunilah kami, kedua orang tua kami dan seluruh kaum muslimin dan muslimat./"</string>
 
-
+ 
     <string name="action_information">Information</string>
     <string name="information">Info</string>
     <string name="english_language">English</string>
@@ -264,7 +264,7 @@
         \n6. Beristirahat sejenak dan minum air zam-zam.  - Sebelum minum air zam-zam, membaca doa:\"Allahumma Inni Asaluka 'Ilman Nafi'an Wa Risqon Waasi'an Wa Syifaa'an Min Kulli Daa'in Wa Saqomin Bi Romhatika Ya Arhamar Rohimiin\"  Artinya:\"Ya Allah, aku mohon padaMu ilmu pengetahuan yang bermanfaat, rezeki yang luas dan kesembuhan dari segala penyakit.\"
         \n7. Melakukan sai antara Safa dan Marwah 7 kali bolak balik.  - Sai dimulai dari Safa ke Marwah yang dihitung sebagai satu kali perjalanan. Jadi, Safa ke Marwah 1, Marwah ke Safa 2, dan seterusnya. Sai berakhir di Marwah. Sai dikerjakan dengan berjalan, tapi pada batas di antara 2 lampu hijau, berlari-lari kecil.  - Sai ini merupakan penghargaan Allah SWT kepada istri Nabi Ibrahim. Saat itu istri Nabi Ibrahim, Siti Hajar, bolak-balik antara Safa dan Marwah sebanyak 7 kali dalam rangka mencari air untuk minum putra beliau yaitu Nabi Ismail.
         \n8. Melakukan tahallul.  - Tahallul adalah akhir dari pelaksanaan ibadah umroh yang ditandai dengan bercukur. Untuk laki-laki lebih baik dicukur sampai gundul, tapi jika tidak sampai gundul tak mengapa. Sedangkan untuk wanita hanya dicukur ala kadarnya.  - Dengan melakukan tahallul, maka sudah sempurna tata cara umroh lengkap sesuai sunnah.   \n"</string>
-    <string name="howto">Panduan</string>
+    <string name="howto">Guide</string>
 
     <string-array name="spinner_languages">
         <item>English</item>
