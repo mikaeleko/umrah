@@ -38,71 +38,149 @@
     <string name="isya">Isya</string>
     <string name="prayer_list">Prayer List</string>
     <string name="pray_title_one">Prayer Traveling</string>
-    <string name="pray_title_two">Prayer Riding In Vehicles</string>
-    <string name="pray_title_three">Prayer for the Assembly of Sinners</string>
-    <string name="pray_title_four">Prayers When It Rains</string>
-    <string name="pray_title_five">Prayer Entering The Toilet</string>
-    <string name="pray_title_six">Prayer Exit The Toilet</string>
-    <string name="pray_title_seven">Prayer Before Eating</string>
-    <string name="pray_title_eight">Prayer After Eating</string>
-    <string name="pray_title_nine">Prayer To Enter The Mosque</string>
-    <string name="pray_title_ten">Prayer After Adhan</string>
     <string name="pray_detail_one">\"O Allah, you are a travel companion and a substitute in the family. O Allah, I take refuge in You from the hardships of the journey, the sadness of the place of return, the prayers of the persecuted, and from the sad outlook on family and property.\" (HR. Tirmdzi and Ibnu Majah with authentic sahad</string>
-    <string name="pray_arab_one">\""اللهم أنت رفيق سفر وبدل في الأسرة. اللهم إني أعوذ بك من مشاق الرحلة ، حزن مكان العودة ، صلاة المضطهدين ، ومن النظرة المحزنة على الأسرة والممتلكات ".</string>
+    <string name="pray_arab_one" translatable="false">اللَّهُمَّ أَنْتَ الصَّاحِبُ فِى السَّفَرِ وَالْخَلِيفَةُ فِى الأَهْلِ اللَّهُمَّ إِنِّى أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمَنْظَرِ وَسُوءِ الْمُنْقَلَبِ فِى الْمَالِ وَالأَهْلِ
+       ِ"Allahumma antash shoohibu fis safar, wal kholiifatu fil ahli. Allahumma inni a’udzubika min wa’tsaa-is safari wa ka-aabatil manzhori wa suu-il munqolabi fil maali wal ahli.
+    "</string>
 
-    <string name="pray_arab_two">فسبحان الله الذي خضع كل هذا لنا رغم أننا لم نكن قادرين على إتقانه ، وفي الحقيقة سنعود إلى ربنا.</string>
-    <string name="pray_arab_three">سبحانك اللهم لك الحمد. أشهد أن لا إله ليعبد إلا أنت ، أستغفر وأتوب إليك</string>
-    <string name="pray_arab_four">اللهم ارزقنا مطر نافع</string>
-    <string name="pray_arab_five">اللهم أحميك من كل شر وقذارة</string>
-    <string name="pray_arab_six">آملين أن تغفر له الحمد لله الذي أزال الشوائب من جسدي وازدهر</string>
-    <string name="pray_arab_seven">اللهم باركني في شيء دعمتموني واحميني من عذاب الجحيم</string>
-    <string name="pray_arab_eight">الحمد لله على إعطائنا الطعام والشراب ، وجعلنا مسلمين</string>
-    <string name="pray_arab_nine">اللهم افتح لي أبواب رحمتك</string>
-    <string name="pray_arab_ten">اللهم إن الله صاحب هذه الدعوة المثالية والصلاة. أعط الوسيلة (الفضائل في السماء) ، والفضيلة (الفضيلة) للنبي محمد. ورفعه حتى يتمكن من شغل المنصب الجدير بالثناء الذي وعدت به</string>
-    <string name="pray_arab_eleven">أرحب بدعوتك يا الله من أجل نية الحب</string>
-    <string name="pray_arab_twelve">سبحان الله ولله الحمد لا إله إلا الله الله أكبر. لا حول ولا قوة ولا قوة (لمقاومة الخطر) إلا بعون الله عز وجل. سلوات وتحيات لرسول الله صلى الله عليه وسلم. اللهم أنا طواف على الإيمان بك ، تأكيد كتابك والوفاء بوعدك واتباع سنة النبي محمد صلى. اللهم إني أسألك الاستغفار والصحة والحماية الأبدية في ممارسة الدين في الدنيا والآخرة ولحسن الحظ في الجنة وتجنب عذاب الجحيم</string>
-    <string name="pray_arab_thirteen">اللهم هذا المعبد بيتك. هذه الأرض المهيبة هي أرضك ، هذه الأرض الآمنة هي أرضك ، هذا الخادم هو خادمك لخادمك وهذا المكان هو مكان يلجأ إليه الناس من عذاب الجحيم ، لذا احفظ لحمنا وجلدنا من عذاب نار الجحيم. اللهم احنا في الايمان ودعنا نزين قلوبنا ونغرس الكراهية في انفسنا على اعمال الكفر والفسق والفساد والخروج على القانون ووضعنا في مجموعة من الناس الذين يحصلون على التعليمات. اللهم احميني من عقابك يوم تقيم عبيدك. اللهم امنحني الجنة بدون حساب</string>
-    <string name="pray_arab_fourteen">اللهم ارزقنا خير الدنيا والخير في الآخرة واحفظنا من عذاب الجحيم</string>
-    <string name="pray_arab_fifteen">اللهم إني أعوذ بك من الشك ، الشرك ، الفتنة ، النفاق ، الأخلاق السيئة وسوء المظهر والعودة فيما يتعلق بالممتلكات والأسرة والأطفال. اللهم إني أسألك سرورك وسماءك. وأعوذ بك من غضبك وعذاب الجحيم. اللهم إني أعوذ بك من افتراء القبر ، وأعوذ بك من افتراء الحياة وعذاب الموت</string>
-    <string name="pray_arab_sixteen">اللهم امنح الحج المبارك ، استقبلت الساعي ، مغفرة الخطايا ، استلمت الحسنات والجهد الذي لن يخسر. اللَّهُ عَلَى اللَّهِ عَلَى الْمُحْتَوَى. أخرجني من الظلمات إلى النور الساطع ، اللهم إني أسألك عن كل ما يجلب نعمتك وغفرانك من كل الخطايا ، ومن حسن الحظ أن تحصل على أشياء جيدة ، ومن حسن الحظ أن تحصل على الجنة ، وتجنب عذاب الجحيم. ربي ، إرضي بالهدية التي قدمتها لي ، بارك لي على كل ما أعطيتني واستبدل ما هو غير مرئي من نظري بلطفك.</string>
-    <string name="pray_arab_seventeen">اللهم احميني برعاية عرشك في يوم ليس له ظل غير ظلك ، ولا شيء أبدي إلا مادتك ، وأعطني مشروب من بحيرة النبي محمد صلى الله عليه وسلم بمشروب لذيذ وطازج ومريح بعد ذلك لن أكون عطشان للأبد. اللهم إني أرجوك من اللطف الذي طلبه رسولك محمد صلى. اللهم إني أتوسل إليك الجنة ونعمها وأي شيء يمكن أن يقربني من كل من الأقوال والأفعال وأقسم إليك من الجحيم وأي شيء يقربني من الأقوال والأفعال</string>
-    <string name="pray_arab_eightteen">اللهم إني أسألك عن إيمان كامل ، إيمان حقيقي ، ثروة عريضة ، قلب مهيب ، لسان يُذكر دائماً رزقًا حلالًا وصالحًا ، توبة مقبولة وتوبة قبل الموت والغفران نعمة بعد الموت ، غفران عند الحكم ، حظا سعيدا يكسب السماء ويتجنب الجحيم برحمتك ، يا الله العلي الغفور. ربي ، امنحني معرفة إضافية ودمجني في صفوف الناس التقوى</string>
-    <string name="pray_arab_nineteen">اللهم احفظ هذه الكعبة ، حررنا ، آباءنا وأمهاتنا ، إخواننا وأولادنا من عذاب الجحيم ، اللهم أكرم وأكرم وأصحاب الفضيلة ، المجد ، القوة ، النعمة ، العطايا والخير. . اللهم أصلح نهاية كل أعمالنا وابتعد عن عار العالم وعذاب الآخرة. اللهم إني عبدك ، ابن عبدك ، واقفاً منتصباً تحت باب الكعبة ، راكعاً أمامك وأنت تتوقع رحمتك ومحبتك وخوفك من عذابك. يا رب ، صاحب الخير الأبدي ، أطلب منك أن ترفع اسمي ، تمحو خطاياي ، تصحح كل ما عندي ، تطهر قلبي ، تنير في قبري لاحقًا. اغفر خطيئتي وأرجو منك الكرامة العالية في الجنة</string>
-    <string name="pray_arab_twenty">بسم الله الرحمن الرحيم. بدأت بما بدأه الله ورسوله. والواقع أن الصفا والمروة جزء من آيات الله العظيمة. ثم من ذهب في الحج إلى بيت الله أو قام بالحج فلا حرج عليه أن يفعله بين الاثنين. ومن عمل فضيلة بقلب راغب فمن المؤكد أن الله هو متلقي الخير والعلم</string>
-    <string name="pray_arab_twenty_one">الله أكبر الله أكبر الله أكبر. الحمد لله ، الله أكبر ، على الهدى الذي أعطانا ، والحمد لله على الهبات التي منحنا إياها ، لا إله إلا الله تعالى. لا شريك له. له المملكة والحمد. هو الذي يصنع الحياة والموت ، وفي سلطته كل الخير وهو سلطان على كل شيء. لا إله إلا الله تعالى لا شريك له ، أوفى بوعوده ، وساعد عبيده ، وأهلك أعدائه بأنفسهم. لا إله إلا الله ولا نعبد إلا الله بتطهير طاعته له وإن كره الكافرين.</string>
-    <string name="pray_arab_twenty_two">الله أكبر (4X) بكل حقه. الحمد لله تعالى بكل ثناءاته اللامتناهية. سبحان الله العظيم بحمد الله أشرف صباحاً ومساءً.
-     وفي بعض الليالي سجدوا وسبحوه طوال الليل. لا إله إلا الله تعالى يفي بوعده بالدفاع عن عباده ولا شيء قبله ولا شيء بعده.
-     هو الذي يصنع الحياة والموت وهو الحي إلى الأبد دون موت ولا هلاك (ضائع) إلى الأبد. الفضيلة فقط في يديه وفيه مكان العودة وهو وحده القدير على كل شيء</string>
-    <string name="pray_arab_twenty_three">اللهم اغفر وارحم واغفر وارحم وامحو كل ما تعلم. حقًا أنت عارف بأشياء لا نعرفها نحن أنفسنا. إِنَّكَ اللَّهُ أَجْلٌ وَأَجْلٌ</string>
-    <string name="pray_arab_twenty_four">في الواقع ، الشفا والمروة جزء من رموز الله. فمن حَج إلى بيت الله أو برمره فلا حرج عليه. ومن عمل خيرا بقلب طوعي فالله مقبولا عليما</string>
-    <string name="pray_arab_twenty_five">الله أكبر (3X) إلا لله ولله الحمد. لا إله إلا الله وحده ، ونصرة كل النوايا والرغبات ، الذين ليسوا متزوجين وليس لديهم أطفال ، ليسوا شركاء في السلطة. لا حامية للذل. فمجده بكل عظمة.
-    اللهم إنك قلت في قرآنك: "صلّ إليّ أسمح لك". الآن طلبنا منك يا ربنا. اغفر لنا كما وعدتنا ، حقًا لا تخلف الوعد.
-    يا ربنا نسمع (صرخة) تلك الدعوة إلى الإيمان (أي) "إيمان" بربك. "إذن لدينا إيمان.
-    يا ربنا اغفر ذنوبنا وامسح أخطائنا واغفر لنا بالخير.
-    يا رب أعطنا ما وعدتنا به من خلال رسلك. ولا تحتقرونا يوم القيامة. إنك لم تخلف وعدك. اللهم لك وحدك أساس كل شيء وإليك مكان العودة.
-    يا ربنا اغفر ذنوبنا وذنوب كل إخوتنا في الإيمان الذين سبقونا ولا تحسد قلوبنا لمن آمن. اللهم إنك أنت أرحم و رحيم</string>
-    <string name="pray_arab_twenty_six">الله أكبر (3X). إلا لله ولله الحمد. اللهم أكمل لنا النور الساطع اغفر لنا إنا لك سلطان على كل شيء. اللهم إني أسألك كل الخير الآن و في المستقبل و أستغفرك عن ذنوبي و أسألك رحمتك اللهم ارحم كل محبة.</string>
-    <string name="pray_arab_twenty_seven">الله أكبر (3X). الحمد لله وحده. اللهم إني أسألك الخير الذي تعلمه وأعوذ بك من الشر الذي تعلمه وأسألك أن تغفر لي كل الأخطاء التي تعلمها حقًا أنت على علم بالغيب. لا اله الا الله الملك الحقيقي. محمد رسول الله الذي يفي بوعوده دائما وثق مرة أخرى.
-    اللهم إنك أريتني على اختيار الإسلام ، فأرجو ألا تنقضه ، حتى أموت مسلما. اللهم ارزقني نور قلبي واذني ورؤيتي. اللهم ارفع صدري ويسر لي كل الامور. وأنا أعوذ بك من فتنة وساسات القلب وخلط الأعمال والافتراء على القبر.
-    اللهم إني أعوذ بك من الشر الذي يختبئ في الليل والنهار ومن شر الريح اللهم رحمه الله أجمعين. اللهم قدوسك لا نستطيع أن نعبدك بإخلاص. اللهم لك سبحانه وتعالى لا يمكن أن ندعوك (الذكر) صحيح</string>
-    <string name="pray_arab_twenty_eight">الله أكبر (3X). الحمد لله وحده سبحانك ، لا نشكرك بامتنان. اللهم لك المجد. ما أعظم ثروتك يا الله.
-     اللهم احبنا على الايمان وزينه في قلوبنا واغرس في نفوسنا البغضاء على الكفر والشر والعصيان. اجعلنا من فئة المرشدين</string>
-    <string name="pray_arab_twenty_nine">الله أكبر (3X). الحمد لله وحده. لا إله إلا الله تعالى يفي بوعوده ويغلب على أعدائه. لا إله إلا الله. ولا نعبد غيره بتطهير طاعته ، وإن كان غير المؤمنين يكرهونه.
-    اللهم إني أسألك الهداية والتقوى والتعفف والمال. اللهم لك الحمد كما نقول. اللهم إني أسألك من غضبك وعذاب جهنم وكل ما يقربني إليه قولاً وفعلاً.
-    اللهم إنك فقط بنورك ننال الهدى وبعطاؤك نشعر بالاكتفاء وفي ظلك وبركاتك ونعمتك وصلاحك نحن صباحا ومساء. أنت الأول ، لا يوجد شيء أمامك وأنت أيضًا آخر ولا يوجد شيء خلفك (بعد) ، أنت الشخص الذي ولد (حقيقي) ، لذلك لا شيء فوق. أنت. أنت الذات الداخلية ، لذلك لا يوجد شيء تحتك.
-    نعوذ بك من الإفلاس والكسل وعذاب القبر والافتراء بالمال ونسألك انتصار الجنة والخلاص من نار جهنم.</string>
+    <string name="pray_title_two">Prayer Riding In Vehicles</string>
+    <string name="pray_arab_two" translatable="false">
+        سُبْحَانَ الَّذِىْ سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ مُقْرِنِيْنَ وَاِنَّآ اِلَى رَبِّنَا لَمُنْقَلِبُوْنَ
+    "Subhaanalladzii sakkhoro lanaa hadza wama kunna lahu muqriniin wa-inna ilaa rabbina lamunqalibuun
+    "</string>
 
-    <string name="pray_arab_thirty">الله أكبر (3X). الحمد لله بحمد غير محدود. اللهم احبني الايمان وزينه في قلبي. زرع الكراهية في داخلي على أعمال الكفر والفسق والعصيان. وأيضا تجعلني من فئة الناس الذين يتلقون التوجيه</string>
-    <string name="pray_arab_thirty_one">اللهم ارحمنا الله ، اقبل ممارستنا ، واحفظنا ، واغفر أخطائنا ، وساعدنا على طاعتك وشكرنا. لا تجعلنا نعتمد على غيرك. أطفئنا في الإيمان والإسلام تمامًا في سعادتك
-     اللهم ارحمنا حتى نتمكن من ترك كل شر في حياتنا ورحمنا حتى لا نفعل شيئاً غير نافع. أعطنا موقفًا جيدًا تجاه ما يجعلك مسرورًا بنا. اللهم رحمه الله من كل رحيم</string>
-    <string name="pray_arab_thirty_two">الله أكبر الله أكبر الله أكبر. الحمد لله الذي وفقنا ، والحمد لله على ما أنعم الله علينا.
-     اللهم ان هذا تاجي فاقبله مني واغفر ذنوبي.
-     اللهم اغفر لمن يحلق ويقصر اللهم اغفر له. اللهم اجعل لي كل شعرة فضيلة وامسحها لي بكل شعر قبيح. و ارفع درجتي الى جانبك</string>
-    <string name="pray_arab_thirty_three">الحمد لله على إتمام مناسكنا ، اللهم أضف إلينا إيمانًا وإيمانًا وساعدنا واغفر لنا ولآبائنا ولكل المسلمين والمسلمين.</string>
+    <string name="pray_title_three">Prayer for the Assembly of Sinners</string>
+    <string name="pray_arab_three" translatable="false">
+        سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لاَ إِلَـٰهَ إِلاَّ أَنْتَ، أَسْتَغْفِرُكَ، وَأَتُوْبُ إِلَيْكَ
+    "Subhanakallaahumma wa bihamdika, asyhadu al-laa ilaaha illaa anta, astaghfiruka, wa atuubu ilaik
+    "</string>
+
+    <string name="pray_title_five">Prayer Entering The Toilet</string>
+    <string name="pray_arab_five" translatable="false">
+        اللهم اِنِّيْ اَعُوْذُبِكَ مِنَ الْخُبُثِ وَالْخَبَآئِثِ
+    "Allaahumma Innii a’uudzubika minal khubutsi wal khabaaitsi.
+    "</string>
+
+    <string name="pray_title_six">Prayer Exit The Toilet</string>
+    <string name="pray_arab_six" translatable="false">
+        غُفْرَانَكَ الْحَمْدُ الِلّٰهِ الَّذِىْ اَذْهَبَ عَنِّى اْلاَذَى وَعَافَانِىْ
+    "Ghufraanaka. Alhamdulillaahil ladzii adzhaba ‘annil adzaa wa’aafaanii
+    "</string>
+
+    <string name="pray_title_seven">Prayer Before Eating</string>
+    <string name="pray_arab_seven" translatable="false">
+        اَللَّهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ
+    "Alloohumma barik lanaa fiimaa razaqtanaa waqinaa ‘adzaa bannar
+    "</string>
+
+    <string name="pray_title_eight">Prayer After Eating</string>
+    <string name="pray_arab_eight" translatable="false">
+        اَلْحَمْدُ ِللهِ الَّذِيْنَ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِيْنَ
+    "Alhamdu lillahhil-ladzi ath-amanaa wa saqaana waja’alanaa minal muslimiin.
+    "</string>
+
+    <string name="pray_title_nine">Prayer To Enter The Mosque</string>
+    <string name="pray_arab_nine" translatable="false">
+        اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ فَضْلِكَ
+    "Allahumma innii asaluka min fadlik
+    "</string>
+
+    <string name="pray_title_ten">Prayer After Adhan</string>
+    <string name="pray_arab_ten" translatable="false">
+        للهُمَّ رَبَّ هذِهِ الدَّعْوَةِ التَّآمَّةِ، وَالصَّلاَةِ الْقَآئِمَةِ، آتِ مُحَمَّدَانِ الْوَسِيْلَةَ وَالْفَضِيْلَةَ وَالشَّرَفَ وَالدَّرَجَةَ الْعَالِيَةَ الرَّفِيْعَةَ وَابْعَثْهُ مَقَامًامَحْمُوْدَانِ الَّذِىْ وَعَدْتَهُ اِنَّكَ لاَتُخْلِفُ الْمِيْعَادَ
+    "Allaahumma robba haadzihid da’watit taammah, washsholaatil qoo-imah, aati muhammadanil washiilata wal fadhiilah, wasysyarofa, wad darajatal, ‘aaliyatar rofii’ah, wab’atshu maqoomam mahmuudanil ladzii wa’adtah, innaka laa tukhliful mii’aadz.
+    "</string>
+    <string name="pray_arab_eleven" translatable="false">
+        نَوَيْتُ العُمْرَةَ وَأَحْرَمْتُ بِهَا لِلهِ تَعَالَى لَبَّيْكَ اللَّهُمَّ بعُمْرَة
+    "nawaitul ‘umrata wa ahramtu bihi lillahi ta’ala labbaika Allahumma ‘umratan.
+    "</string>
+    <string name="pray_arab_twelve" translatable="false">
+    سُبْحَانَ اللهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللهَ اللهُ أَكْبَرُ. وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ الْعَلِيِّ الْعَظِيْمِ. وَالصَّلَاةُ وَالسَّلاَمُ عَلَى رَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ. اللَّهُمَّ إِيْمَانًا بِكَ وَتَصَدِّيْقًا بِكِتَابِكَ وَوَفَاءاً بِعِبَادِكَ وَاتِّبَاعًا لِسُنَّةِ نَبِيِّكَ مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ. اللَّهُمَّ إِنِّي أَسْئَلُكَ الْعَفْوَى وَالْعَافِيَةَ الدَّائِمَةَ فِي الدِّيْنِ وَالدُّنْيَا وَالْأَخِرَةَ وَالْفَوْزَ بِالْجَنَّةِ وَالنَّجَاةِ مِنَ النَّارِ
+    "Subahaanallaahi walhamdulillaahi wa laa ilaaha illallaahu allahu akbar. wa laa haula wa laa quwwata illaa billaahil ‘aliyyil ‘azhiimi. Wash shalaatu wassalaamu’alaa rasuulillaaahi shallallaahu ‘alaihi wa sallama. Allahumma iimaanan bika wa tashdiqan bikitaabika wa wafaa’an bi’aadhika wattibaa’an li sunnati nabiyyika muhammadin shallaahu ‘alaihi wa sallama. Allahumma inni as’alukal ‘afwa wal ‘aafiya wal mu’aafatan daaimata fid diini wad dunyaa wal aakhirati wal fauza bil jannati wannajaata minannaari.
+    "</string>
+    <string name="pray_arab_thirteen" translatable="false">
+    اللَّهُمَّ إِنََ هَذَا الْبَيْتَ بَيْتُكَ وَالْحَرَاَم حَرَامُكَ وَالْأَمْنَ أَمْنُكَ وَالْعَبْدَ عَبْدُكَ وَأَنَا عَبْدُكَ وَابْنُ عَبْدِكَ وَهَذَا مَقَامُ عَيْذُكَ بِكَ مِنْ النَّارِ فَحَرِّمْ لُحُومُنَا وَبَشِّرْنَا عَلَى النَّارِ اللَّهُمَّ حَبِّبْ إِلَيْنَا الْإيْمَانَ وَزَيِّنْهُ فِي قَلُوبِنَا وَكَرِّهْ إِلَيْنَا الْكُفْرَ وَالْفُسُوقَ وَالْعِصْيَانَ وَاجْعَلْنَا مِنَ الرَّاشِدِينَ اللَّهُمَّ قِنِي عَذَابَكَ الْيَوْمَ تَبْعَثُ عِبَادَكَ اللُّهُمَّ ارْزُقْنَا الْجَنَّةَ بِغَيْرِ حِسَابٍ
+    "Allahumma innaa haadzal baita baituka wal haraama haraamuka wal amna amnuka wal ‘abda ‘abduka wa anaa ‘abduka wabnu ‘abdika wa haadzaa maqaamu ‘aidza bika minannaari faharrim luhuumanaa wa basyaranaa ‘alannaari. Allahumma habbib ilainal iimaana wa zayyinhu fii quluubinaa wa karrih ilainal kufra wal fusuuqa wal ‘ishyaanaa waj’alnaa minar raasyidiina. ALlahumma qinii ‘adzaabaka yauma tab’atsu ‘ibaadaka. Allahummarzuqnal jannata bighairi hisaabin.
+    "</string>
+    <string name="pray_arab_fourteen" translatable="false">
+    اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِن الشَّكِّ وَالشِرْكِ والشِّقَاقِ والنِّفَاقِ وسُوءِ الأَخْلاَقِ وَسُوءِ المَنْظَرِ وَالمُنْقَلِبِ فِي المَالِ والأَهْلِ والوَلَدِ اللَّهُمَّ إِنِّي أَسْألُكَ رِضَاكَ والجَنَّةَ وأَعُوذُبِكَ مِن سَخَطِكَ والنَّارِ وَاالهَمِّ إِنِّي أَعُوذُبِكَ مِنْ فِتْنَةِ القُبُرِ وأَعُوذُ بِكَ مِن فِتْنَةِ المَحْيَا والمَمَاتِ
+    "Allahumma inni a’udzubika minasysyakki wasysyirki wasysyiqaaqi wannifaaqi wa suu’il akhlaaqi wa suu’il manzhari wal munqalabi fil maali wal ahli wal waladi. Allahumma innii as’aluka ridhaaka wal jannata wa a’udzubika min shkathika wannaar. Allahumma innii a’udzubika min fitnatil qabri wa a’udzubika min fitnatil mahyaa wal mamaati.
+    "</string>
+    <string name="pray_arab_fifteen" translatable="false">
+    اللَّهُمَّ اجْعَلْنِي حَجًّا مَبْرُورًا وَسَعْياً مَشْكُورًا وَذُنُباً مَغْفُورًا وَعَمَلًا صَالِحًا مَقْبُولًا وَتِجًارَةً لًنْ تَبُورًا. يَا عَالِمً مَا فِي الصُّدُورِِ أَخْرِجْنِي مِن الظُّلُمَاتِ إِلَى النُورِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ مُوجِبَاتِ رَحْمَتِكَ وَعَزَائِمَ مَغْفِرَتِكَ وَالسَّلاَمَةَ مِن كُلِّ إِثْمٍ والغَنِيمَةَ مِن كُلِّ بِرٍّ والفَوْزَ بِالجَنَّةِ مِن النَّارِ رَبِّي قَنِّعْنِي بِمَا رَزَفَنِي وَبَارِكْ لِي فِيمَا أَعْطَيْتَنِي وَاخْلُفْ عَلَيْنَا كُلَّ غَيْبَةٍ مِنْكَ بِخَيْرٍ
+    "Allahummaj’alnii hajjan mabruuran wa sa’yan masykuuran wa dzanban maghfuura wa ‘amalan shaalihan maqbuulan wa tijaaratan lan tabuura. Ya ‘aalima maa fish shuduuri akhrijnii minazh zhulumaati ilannuri. ALlahumma inni as ‘aluka mujibaati rahmatika wa ‘azaa’imi maghfiratika wassalaaamata min kulli itsmin wal ghaniimata min kulli birrin wal fauza bil jannati wannajaata minannaari. Rabbi qanni’nii bimaa razaqtanii wa baariklii fiimaa ‘athaitanii wakhluf ‘alaynaa kulla ghaibatin minka bikhairin.
+    "</string>
+    <string name="pray_arab_sixteen" translatable="false">
+    أللَّهُمَّ أَظِلَّنِي تَحْتَ ظِلِّ عَرْشِكَ يَوْمَ لاَ ظِلَّ إِلَّا ظِلَّكَ وَلَا بَقِيَ إِلَّا وَجْهَكَ وَأَسْفِنِي مِنْ حَوْضِ نَبِيِّكَ مُحَمَّدٍ صَلَّى اللهُ عَلَيْكَ وسَلَّم شُرْبَةً هَنِيئَةً مَرِيئَةً لَا أَظَؤُ بَعْدَهَا أَبَدًا. أللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ خَيْرٍ مَا سَأَلَكَ مِنهُ نَبِيُّكَ مُحَمَّدٌ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَأَعُوُذُبِكَ مِنْ شَرِّ مَا عَاذَكَ مِنْهُ نَبِيُّكَ مُحَمَّدٌ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ اللَّهُمَّ إِنِّي أَسْأَلُكَ الجَنَّةَ وَنَعِيمَهَا وَمَا يُقَرِّبُنِي إِلَيْهَا مِنْ قَوْلٍ أَوْ فِعْلٍ أَوْ عَمَلٍ وَأَعُوذُبِكَ مِنَ النَّارِ وَمَا يُقَرِّبُنِي إِلَيْهَا مِنْ قَوْلٍ أَْو فِعْلٍ أَوْ عَمَلٍ
+    "Allahumma azhillanii tahta zhilli ‘arsyika yauma laa zhilla illaa zhilluka walaa baqiya illaa wajhuka wa asqini min haudhi nabiyyika muhammadin shallallaahu ‘alaihi wasallama syurbatan haniii’atan marii’atan laa azah’u ba’dahaa abadan. Allahumma innii as’aluka min khairi maa sa’alaka minhu nabiyyiuka muhammadun shallallaahu ‘alaihi wa sallama wa a’uudzubika min syarri maa ‘aadzaka minhu nabiyyuka muhammadun shallallahu ‘alaihi wa sallama. Allahumma innii as’alukal jannata wa na’iimahaa wa maa yuqarribunii ilaihaa min qaulin au fi’lin au ‘amalim wa a’udzubika minannaari wa maa yuqaarribunii ilaihaa min qaulin au fi’lin au ‘amalain.
+    "</string>
+    <string name="pray_arab_seventeen" translatable="false">
+    اللَّهُمَّ إِنَّا لَكَ عَلَيَّ حُقُوقًا كَثِيرًا فِيمَا بَيْنِي وَبَيْنَكَ وَحُقُوقًا كثيرا فِيمَا بَيْنِي وَبَيْنَ خَلْقِكَ الَّلهُمَّ مَا كَانَ لَكَ مِنْهَا فَاغْفِرْهُ لِي وَمَا كَانَ لِخَلْقِكَ وَتَحَمَّلَهُ عَنِّي وَأَغْنِنِي بِحَلَالِكَ عَنْ حَرَامِكَ وَبِطَاعَتِكَ عنْ مَعْصِيَتِكَ وَبِفَضْلِكَ عَمَّنْ سِوَاكَ يَا وَاسِعَ المَغْفِرَةِ اللََّهُمَّ إِنَّ بَيْتَكَ عَظِيمٌ وَوَجْهَكَ كَرِيْمٌ وَأَنْتَ يَا اللَّهُمََّ حَلِيمٌ كَرِيمٌ عَظِيمٌ تُحِبُّ العَفْوَ فَاعْفُ عَنَّا
+    "Allahuma innaa laka ‘alayya huquuqan katsiratan fiima bainii wa bainaka wa huquuqan katsiran fiiimaa bainii wa baina khalqika. Allahumma maa kaana laka minhaa faghfirhu lii wa maa kaana likhalqika fatahammalhu ‘annii wa aghninii bihalaalila ‘an haraamika wa bithaa’atika ‘an ma’shiyyatika wa bidadhlika ‘amman siwaaka yaa waasi’al maghfirati. Allahumma inna baitaka ‘azhiimun wa wajhaka kariimun wa anta yaa allahumma haliimun kariimun ‘azhiimun tuhibbul ‘afwa fa’fu’annii.
+    "</string>
+    <string name="pray_arab_eightteen" translatable="false">
+    اللَّهُمَّ إِنِّي أَسْأَلُكَ إِيْمَاناً كَامِلًا وَيَقِينًا صَادِقًا وَرِزْقًا وَاسِعًا وَقَلْبًا خَاشِعًا ولِسَانًا ذَاكِرًا وَحَلَالًا طَيِّبًا وَتَوْبَةً نَصُوحًا وَتَوْبَةً قَبْلَ المَوْتِ وَرَاحَةً عِنْدَ المَوْتِ وَمَغْفِرَةً وَرَحْمَةً بَعْدَ الَموْتِ وَالْعَفْوَ عِنْدَ الحِساَبِ واَلفَوْزَ بِالْجَنَّةِ وَالنَّجَاةِ مِنَ النَّارِ بِرَحْمَتِكَ يَا عَزِيْزُ بِاْلصَالِحِينَ
+    "Allhumma innii as’aluka iimaanan kaamilan wa yaqiinan shaadiqan wa rizqan waasi’an wa qalban khaasyi’an wa lisaaanan dzaakiran wa halaalan thayyiban wa taubatan nashuuhan wa taubatan qablal mauti wa maghfiratan wa rahmatan ba’dal mauti wal ‘afwa ‘indal hisaabi wal fauza bil jannati wannajaata minannaari birahmatika yaa ‘aziizu bishshaalihin.
+    "</string>
+    <string name="pray_arab_nineteen" translatable="false">
+    اَللّٰهُمَّ يَا رَبَّ الْبَيْتَ الْعَتِيْقِ أَعْتِقْ رِقَابَنَا وَرِقَابَ اٰبَآئِنَا وَأُمَّهَاتِنَا وَإِخْوَانِنَا وَأَوْلَادِنَا مِنَ النَّارِ يَاذَا اْلجُوْدِ وَالْكَرَمِ وَالْفَضْلِ وَاْلمَنِّ وَالْعَطَاءِ وَاْلإِحْسَانِ
+    "allahuma yaa rabbal baitil ‘atiiqi a’tiq riqaabanaa wa riqaaba aabaa’inaa wa ummahaatinaa wa ikhwaaninaa wa aulaadina minan naari yaa dzal juudi wal karami wal fadhli wal manni wal a’tha’i wal ihsaani. Allahumma ahsin ‘aqiibatanaa fil umuuri hullihaa wa ajirna min khizyiddun-yaa wa ‘adzaabil aakhirati.
+    "</string>
+    <string name="pray_arab_twenty" translatable="false">
+    بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ أَبْدَأُ بِماَبَدَأَ اللهُ بِهِ وَرَسُوْلُهُ إِنَّ الصَّفاَ وَالمَرْوَةَ مِنْ شَعَآئِرِ اللهِ , فَمَنْ حَجَّ البَيْتَ أَوِاعْتَمَرَ فَلاَجُناَحَ عَلَيْهِ أَنْ يَّطَّوَّفَ بِهِماَ وَمَنْ تَطَوَّعَ خَيْراً فَإِنَّ اللهَ شاَكِرٌ عَلِيْمٌ .
+    "Abda'u bimaa bada Allaahu bihi warasuuluh. Innas safa walmarwata min sya'airillah Faman hajjal baita awi'tamara fala junaha 'alaihi ayyatawwafa bihima waman tatawwa'a khairan fa innallaha syakirun 'alim."
+    </string>
+    <string name="pray_arab_twenty_one" translatable="false">
+    اَللهُ أَكْبَرُ – اَللهُ أَكْبَرُ- اَللهُ أَكْبَرلاَ إِلهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِ يْكَ لَهلَه اْلمُلْكُ وَلَه اْلحَمْدُ وَ هُوَ عَلى كُلِّ شَيْئٍ قَدِيْرٌلآاِلهَ إِلاَّ اللهُ وَحْدَهُ أَ نْجَزَ وَعْدَه ونَصَرَ عَبْدَه وَهَزَمَ اْلأَحْزَابَ وَحْدَه
+    "Allohu Akbar (3x) laa ilaaha illallohu wahdahu laa syariikalah, lahul mulku walahul hamdu wahuwa 'Alaa kulli syai'in qodiir. Laa ilaaha illallohu wahdah, anjaza wa'dah, wanashoro 'abdah, wahazamal ahzaaba wahdah."
+    </string>
+    <string name="pray_arab_twenty_two" translatable="false">
+    أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ , أَللهُ أَكْبَرُ كَبِيْراً وَالحَمْدُ ِللهِ كَثِيْراً وَسُبْحاَنَ اللهِ العَظِيْمِ وَبِحَمْدِهِ الكَرِيْمِ بُكْرَةً وَأَصِيْلاً وَمِنَ اللَّيْلِ فاَسْجُدْ لَهُ وَسَبِّحْهُ لَيْلاً طَوِيْلاً لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ أَنْجَزَ وَعْدَهُ وَنَصَرَ عَبْدَهُ وَهَزَمَ الأَحْزاَبَ وَحْدَهُ لاَ شَيْءَ قَبْلَهُ وَلاَ بَعْدَهُ يُحْيِى وَيُمِيْتُ وَهُوَ حَيٌّ داَئِمٌ لاَ يَمُوْتُ وَلاَ يَفُوْتُ أَبَداً بِيَدِهِ الخَيْرُ وَإِلَيْهِ المَصِيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ
+    "Allahu Akbar Allahu Akbar Allahu Akbar Allahu Akbar kabira, walhamdu lillahi kasira. Wasubhaanallahil'azimi wabiham dihil karimi bukratawwa asila. Waminal laili fasyjud lahu wasabbih-hu lailan tawila. La ilaha illallahu wahdah anjaza wa'dah. Wanasara 'abdah wahazamal ahzaba wahdah. La syai a qablahu wala ba'dahu Yuhyii wayumiitu wahuwa hayyun daa imun layamutu walayafutu abada. Biyadihil khairu wailaihil masiir. Wahuwa'ala kulli syai in qadir."
+    </string>
+    <string name="pray_arab_twenty_three" translatable="false">
+    رَبِّ اغْفِرْ وَارْحَمْ وَاعْفُ وَتَكَرَّمْ وَتَجاَوَزْ عَمَّا تَعْلَمُ إِنَّكَ تَعْلَمُ ماَلاَ نَعْلَمُ إِنَّكَ أَنْتَ اللهُ الأَعَزُّ الأَكْرَمُ .
+    "Rabbighfir warham wa'fu watakarram watajaawaz 'ammaa ta'lamu, innaka ta'lamu, mala na'lamu, Innaka antallahul a'azzul akram."</string>
+    <string name="pray_arab_twenty_four" translatable="false">
+    إِنَّ الصَّفاَ وَالمَرْوَةَ مِنْ شَعَآئِرِ اللهِ , فَمَنْ حَجَّ البَيْتَ أَوِاعْتَمَرَ فَلاَجُناَحَ عَلَيْهِ أَنْ يَّطَّوَّفَ بِهِماَ وَمَنْ تَطَوَّعَ خَيْراً فَإِنَّ اللهَ شاَكِرٌ عَلِيْمٌ .
+    "Inna Safa walMarwata min sya'airillah. Faman hajjal bita awi'tamara fala junaha 'alaihi ayyatawwafa bihima. Waman tatawwa'a khairan fainnallaha syakirun 'alim.
+    "</string>
+    <string name="pray_arab_twenty_five" translatable="false">
+    أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ وَ ِللهِ الحَمْدُ لاَ إِلَهَ إِلاَّ اللهُ الواَحِدُ الفَرْدُ الصَّمَدُ الَّذِى لَمْ يَتَّخِذْ صاَحِبَةً وَلاَ وَلَداً وَلَمْ يَكُنْ لَهُ شَرِيْكٌ فىِ الْمُلْكِ وَلَمْ يَكُنْ لَهُ وَلِيٌّ مِنَ الذُّلِّ وَكَبِّرْهُ تَكْبِيْراً .أَللَّـهُمَّ إِنَّكَ قُلْتَ فىِ كِتاَبِكَ الْمُنَزَّلِ أُدْعُوْنِى أَسْتَجِبْ لَكُمْ دَعَوْناَكَ رَبَّناَ فاَغْفِرْ لَناَ كَماَ أَمَرْتَناَ إِنَّاكَ لَا تُخْلِيْفُ المِيْعاَدَ . رَبَّناَ إِنَّناَ سَمِعْناَ مُناَدِياً يُناَدِى لِلإِيْماَنِ أَنْ آمِنُوْا بِرَبِّكُمْ فَآَمَنّاَ , رَبَّناَ فاَغْفِرْ لَناَ ذُنُوْبَناَ وَكَفِّرْ عَنَّا سَيِّئَاتِناَ وَتَوَفَّناَ مَعَ الأَبْراَرِ , رَبَّناَ وَأَتِناَ ماَ وَعَدْتَناَ عَلَى رُسُلِكَ وَلاَ تُخْزِناَ يَوْمَ القِياَمَةِ إِنَّكَ لَا تُخْلِفُ الْمِيْعاَدَ . رَبَّناَ عَلَيْكَ تَوَكَّلْناَ وَإِلَيْكَ أَنَبْناَ وَإَلَيْكَ الْمَصِيْرُ . رَبَّناَ اغْفِرْ لَناَ ذُنُوْبَناَ وَ ِلإِخْواَنِناَ الَّذِيْنَ سَبَقُوْناَ بِالإِيْماَنِ وَلاَ تَجْعَلْ فىِ قُلُوْبِناَ غِلاًّ لِّلَّذِيْنَ أَمَنُوْا رَبَّناَ إِنَّاكَ رَءُوْفٌ رَّحِيْمٌ
+    "Allahu Akbar Allahu Akbar Allahu Akbar walillahil hamdu. Laa ilaaha illallaahul waahidul fardus shamad. Allazi lam yattakhiz shaahibatan walaa waladan walam yakun lahu syarikun fil mulki walam ya kun lahu waliyyun minazzulli wakabbirhu takbira. Allahumma innaka kulta fi kitabikal munazali ud'uni astajib lakum da'aunaka rabbana `fagfir lana kama amartana innaka latukhliful mi'ad. Rabbana innana sami'na munadiyan yunadi lil imani anaminu birabbikum fa'amanna. Rabana fagfirlana zunubana wa kaffir 'anna sayyiatina watawaffana ma'al abrar. rabbana wa atina mawa'ad tana ala rusulika wala tukhzina yaumal qiyamati innaka latukhliful mi'ad. Rabbana 'alaika tawakkalna wailaika anabna wailaikal masir. Rabbanagfirlana zunuwali ikhwaninal lazina sabaquna bil imani wala taj'al fi qulubina gillal lillazina amanu rabbana innaka ra ufurrahim.
+    "</string>
+    <string name="pray_arab_twenty_six" translatable="false">
+    أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ وَ ِللهِ الحَمْدُ رَبَّناَ أَتْمِمْ لَناَ نُوْرَناَ وَاغْفِرْ لَناَ إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ . أَللَّـهُمَّ إِنِّى أَسْأَلُكَ الخَيْرَ كُلَّهُ عاَجِلَهُ وَأَجِلَهُ وَأَسْتَغْفِرُكَ لِذَنْبِى وَأَسْأَلُكَ رَحْمَتَكَ ياَ أَرْحَمَ الرَّحِمِيْنَ .
+    "Allahu akbar Allahu Akbar Allahu Akbar walillahil hamdu Rabbana atmim lana nurana waghfirlana innaka 'ala kulli syai in qadir. Allahumma inni as alukal khaira kullahu ajilahu wa ajilahu wa astagfiruka lizanbi waasaluka rahmataka ya arhamar rahimin.
+    "</string>
+    <string name="pray_arab_twenty_seven" translatable="false">
+    أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ وَ ِللهِ الحَمْدُ أَللَّـهُمَّ إِنِّى أَسْأَلُكَ مِنْ خَيْرِ ماَتَعْلَمُ وَأَعُوْذُ بِكَ مِنْ شَرِّ ماَ تَعْلَمُ وأَسْتَغْفِرُكَ مِنْ كُلِّ ماَ تَعْلَمُ إِنَّاكَ أَنْتَ عَلاَّمُ الغُيُوْبِ , لاَ إِلَهَ إِلاَّ اللهُ المَلِكُ الحَقُّ المُبِيْنُ , مُحَمَّدٌ رَسُوْلُ اللهِ صاَدِقُ الوَعْدِ الأَمِيْنُ . أَللَّـهُمَّ إِنِّى أَسْأَلُكَ كَماَ هَدَيْتَنِى لِلإِسْلاَمِ أَنْ لاَتَنْزِعَهُ مِنِّى حَتَّى تَتَوَفَّنِى وَأَناَ مُسْلِمٌ , أَللّهُمَّ اجْعَلْ فىِ قَلْبِى نُوْراً وَفىِ سَمْعِى نُوْراً وَفىِ بَشَرِى نُوْراً , أَللَّـهُمَّ اشْرَحْ لىِ صَدْرِى وَيَسِّرْ لىِ أَمْرِى وَأَعُوْذُ بِكَ مِنْ وَساَوِسِ الصَّدْرِ وَشَتاَتِ الأَمْرِ وَفِتْنَةِ القَبْرِ , أَللَّـهُمَّ إِنِّى أَعُوْذُ بِكَ مِنْ شَرِّ ماَ يَلِجُ فىِ اللَّيْلِ وَشَرِّ ماَ يَلِجُ فىِ النَّهاَرِ وَمِنْ شَرِّ ماَ تَهُبُّ بِهِ الرِّياَحُ ياَ أَرْحَمَ الرَّحِمِيْنَ . سُبْحاَنَكَ ماَ عَبَدْناَكَ حَقَّ عِباَدَتِكَ ياَ أَللهُ سُبْحاَنَكَ ماَذَكَرْناَكَ حَقَّ ذِكْرِكَ ياَ أَللهُ .
+    "Allahu Akbar Allahu Akbar Allahu Akbar walillahil hamdu. Allahumma inni as aluka min khairi ma ta'lamu wa a'uzubika min syarri mata'lamu wa astagfiruka min kulli mata'lamu innaka anta 'allamul guyub. La ilaha illallahul malikul haqqul mubin. Muhammadur rasulullah sadiqul wa'dil amin. Allahumma inni as aluka kama haditani lil islami an la tanzi 'ahu minni hatta tatawaffani wa ana muslimun. Allahummaj'al fi qalbi nura. Allahummasyroh li sadri wayassirli amri wa a'uzubika min wasawisis sadri wasyatatil amri wafit natil qabri. Allahumma inni a'uzubika min syarri ma yaliju fillaili wa syarri ma yaliju finnahari wamin syarri matahubbu bihir riyahu ya arhamar rahimin. Subhanaka ma 'abadnaka haqqa ibadatika ya Allahu Subhanaka ma zakarnaka haqqa zikrika ya Allahu.
+    "</string>
+    <string name="pray_arab_twenty_eight" translatable="false">
+    أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ وَ ِللهِ الحَمْدُ سُبْحاَنَكَ ماَ أَعْلَى شَأْنَكَ ياَ أَللهُ , أَللَّـهُمَّ حَبِّبْ إِلَيْناَ الإِيْماَنَ وَزَيِّنْهُ فىِ قُلُوْبِناَ وَكَرِّهْ إِلَيْناَ الكُفْرَ وَالفُسُوْقَ وَالعِصْياَنَ وَاجْعَلْناَ مِنَ الرَّاشِدِيْنَ
+    "Allahu Akbar Allahu Akbar Allahu Akbar walillahil hamdu. Subhanaka ma syakarnaaka haqqa syukrika ya Allahu subhanaka ma a'la sya'naka ya Allahu. Allahumma habbib ilainal imana wa zayyinhu fi qulubina wakarrih ilainal kufra walfu suqa wal'isyana waj'alna minar rasyidin."</string>
+    <string name="pray_arab_twenty_nine" translatable="false">
+    أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ وَ ِللهِ الحَمْدُ لاَ إِلَهَ إِلاَّ اللهُ وَحْدَهُ صَدَقَ وَعْدَهُ وَنَصَرَ عَبْدَهُ وَهَزَمَ الأَحْزاَبَ وَحْدَهُ لاَ إِلَهَ إِلاَّ اللهُ وَلاَ نَعْبُدُ إِلاَّ إِياَّهُ مُخْلِصِيْنَ لَهُ الدِّيْنَ وَلَوْ كَرِهَ الكاَفِرُوْنَ . أَللَّـهُمَّ إِنِّى أَسْأَلُكَ الهُدَى وَالتُّقَى وَالعَفاَفَ وَالغِنَى , أَللَّـهُمَّ لَكَ الحَمْدُ كاَلَّذِىْ نَقُوْلُ وَخَيْراً مِمَّا نَقُوْلُ , أَللَّـهُمَّ إِنِّى أَسْأَلُكَ رِضاَكَ وَالجَنَّةَ وَأَعُوْذُ بِكَ مِنْ سَخَطِكَ وَالنَّارِ وَماَ يُقَرِّبنُِى إِلَيْهاَ مِنْ قَوْلٍ أَوْ فِعْلٍ أَوْ عَمَلٍ . أَللَّـهُمَّ بِنُوْرِكَ اهْتَدَيْناَ وَبِفَضْلِكَ اسْتَغْنَيْناَ وَفىِ كَنَفِكَ وَإِنْعاَمِكَ وَعَطاَئِكَ وَإِحْساَنِكَ أَصْبَحْناَ وَأَمْسَيْناَ أَنْتَ الأَوَّلُ فَلاَ قَبْلَكَ شَيْءٌ وَالأَخِرُ فَلاَ بَعْدَكَ شَيْءٌ وَالظَّاهِرُ فَلاَ شَيْءَ فَوْقَكَ وَالباَطِنُ فَلاَ شَيْءَ دُوْنَكَ نَعُوْذُ بِكَ مِنَ الفَلَسِ وَالكَسَلِ وَعَذاَبِ القَبْرِ وَفِتْنَةِ الغِنَى وَنَسْأَلُكَ الفَوْزَ بِالجَنَّةِ
+    "Allahu Akbar Allahu Akbar Allahu Akbar walillahil hamdu. La ilaha illallahu wahdah, sadaqa wa'dah, wanasara 'abdah wahazamal ahzaba wahdah. La ilaha illallahu wala na'budu illa iyyahu mukhlisina lahuddina walau karihal kafirun. Allahumma inni 'as'alukal huda wattuqa wal 'afafa walghina. Allahumma lakal hamdu kallazi naqulu wakhairan mimma naqulu. Allahumma inni as'aluka ridaka waljannata wa a'uzubika min sakhatika wannari wama yuqarribuni ilaiha min qaulin aufi'lin au'a malin. Allahumma binurikah tadaina wabifadlika istagnaina wa fi kanafika wa in amika wa'ata ika wa ihsanika asbahna wa amsaina antal awwalu fala qablaka syai'un wal akhiru fala ba'daka syai'un wazzahiru fala syai'a dunaka na'uzubika minal falasi wal kasali wa'azabil qabri wafitnatil gina wa nas'alukal fauza biljannah.
+    "</string>
+    <string name="pray_arab_thirty" translatable="false">أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ أَللهُ أَكْبَرُ كَبِيْراً وَالحَمْدُ ِللهِ كَثِيْراً , أَللَّـهُمَّ حَبِّبْ إِلَيَّ الإِيْماَنَ وَزَيِّنْهُ فىِ قَلْبِى وَكَرِّهْ إِلَيَّ الكُفْرَ وَالفُسُوْقَ وَالعِصْياَنَ وَاجْعَلْنِى مِنَ الرَّاشِدِيْنَ
+    "Allahu Akbar Allahu Akbar Allahu Akbar kabira walhamdu lillahi kasira. Allahumma habbib ilayyal imana wazayyinhu fi qalbi wakarrih ilayyal kufra wal fusuqa wal 'isyana waj'alni minar rasyidin."
+    </string>
+    <string name="pray_arab_thirty_one" translatable="false">أَللَّـهُمَّ رَبَّناَ تَقَبَّلْ مِنَّا وَعاَفِناَ وَاعْفُ عَنَّا وَعَلَى طاَعَتِكَ وَشُكْرِكَ أَعِنَّا وَعَلَى غَيْرِكَ لاَ تَكِلْناَ وَعَلَى الإِيْماَنِ وَالإِسْلاَمِ الكاَمِلِ جَمِيْعاً تَوَفَّناَ وَأَنْتَ راَضٍ عَنَّا أَللَّـهُمَّ ارْحَمْنِى بِتَرْكِ المَعاَصِى أَبَداً ماَ أَبْقَيْتَنِى وَارْحَمْنِى أَنْ أَتَكَلَّفَ ماَ لاَ يَعْنِيْنِى وَارْزُقْنِى حُسْنَ النَّظَرِ فِيْماَ يُرْضِيْكَ عَنِّى ياَ أَرْحَمَ الرَّاحِمِيْنَ .
+    "Allahumma rabbana taqabbal minna wa'afina wa,fu 'anna wa'ala tha atika wasyukrika a'inna wa'ala ghairika latakilna wa alal imani wal islamil kamili jami'an, tawaffana wa anta radin anna. Allahummar hamni bitarkil ma'asi abadan ma abqaitani warhamni an atakalaffa ma la ya'nini warzugni husnan nazari fima yurdika anni ya arhamar rahimin."
+    </string>
+    <string name="pray_arab_thirty_two" translatable="false">
+    اَلْحَمْدُلِلّٰهِ عَلَى مَاهَدَانَا وَالْحَمْدُلِلّٰهِ عَلَى مَااَنْعَمَ بِهِ عَلَيْنَا, اَللّٰهُمَّ هٰذِهِ نَاصِيَتِى فَتَقَبَّلْ مِنِّى وَاغْفِرْلِى ذُنُوْبِى, اَللّٰهُمَّ اغْفِرْلِى وَلِلْمُحِلِّقِيْنَ وَالْمُقَصِّرِيْنَ, يَاوَاسِعَ الْمَغْفِرَةِ اٰمِنِيْنَ
+    "Alhamdulillaahil ladzii qadhaa ‘annaa manaasikanaa. Allahumma zidnaa iimaanan wa yaqiinan wa ‘aunan waghfir lanaa wa liwaalidainaa wa lisaa’iri muslimiiina wal muslimaati."</string>
+
+    <string name="pray_arab_thirty_three" translatable="false">
+    اَلْحَمْدُلِلّٰهِ الَّذِيْ قَضَى عَنَّانُسُكَنَا اَللّٰهُمَّ زِدْنَااِيْمَانًاوَيَقِيْنًاوَعَوْنًا, وَاغْفِرْلَنَاوَلِاٰبَاءِنَاوَاُمَّهَاتِنَاوَالْمُسْلِمِيْنَ اَجْمَعِيْنَ
+    "Alhamdu lillaahil ladzii qadha ‘annaa nusukanaa . Allaahumma zidnaa iimaanan wayaqiinan wa ‘aunan, waghfirlanaa wali-aabaa inaa wa ummahaatinaa wal muslimiina ajma’iina"</string>
 
     <string name="pray_detail_two">\"Glory be to the Lord who has subjected all this to us even though we were previously unable to master it, and in fact we will return to our Lord.\"</string>
     <string name="pray_detail_three">\"Glory to You, O God, I praise You. I testify that there is no God to worship except You, I ask for forgiveness and repent to You.\"</string>
-    <string name="pray_detail_four">\"Allahumma shoyyiban nafi\'an\" [O Allah, send us useful rain]</string>
+
     <string name="pray_detail_five">\"O Allah, verily I protect you from all evil and filth.\"</string>
     <string name="pray_detail_six">\"Hoping for Your forgiveness, all praise belongs to Allah who has removed impurities from my body and who has prospered.\"</string>
     <string name="pray_detail_seven">\"O God, bless me in something that you have blessed me with, and protect me from the torments of hell.\"</string>
@@ -117,7 +195,7 @@
     <string name="pray_detail_twelve">\"Maha suci Allah, segala puji bagi Allah, tidak ada Tuhan selain Allah, Allah Maha Besar. Tiada daya (untuk memperoleh manfaat) dan tiada kemampuan (untuk menolak bahaya) kecual dengan pertolongan Allah yang Maha Mulia dan Maha Agung. Salawat dan salam bagi Rasulullah SAW. Ya Allah, aku tawaf ini karena beriman kepada-Mu, membenarkan kitab-Mu dan memenuhi janji-Mu dan mengikuti Sunnah Nabi-Mu Muhammad SAW. Ya Allah sesungguhnya aku mohon kepada-Mu ampunan, kesehatan dan perlindungan yang kekal dalam menjalankan agama, di dunia dan akhirat dan beruntung memperoleh surga dan terhindar dari siksa neraka.\"</string>
 
     <string name="pray_title_thirteen">Doa putaran ke 2 dibaca mulai dari Hajar Aswad sampai Rukun Yamani</string>
-    <string name="pray_detail_thirteen">/"YaAllah, sesungguhnya bait ini rumah-Mu. Tanah muliah ini tanah-Mu, negeri aman ini negeri-Mu, hamba ini hamba-Mu anak dari hamba-Mu dan tempat ini adalah tempat orang berlindung pada-Mu dari siksa neraka, maka haramkanla daging dan kulit kami dari siksa api neraka. ya Allah cintakanlah kami pada iman dan biarkanlah ia menghias hati kami, tanamkan kebencian pada diri kami pada perbuatan kufur, fasiq, maksiat dan durhaka serta masukkan kami ini dalam golongan orang yang mendapat petunjuk. Ya Allah lindungilah aku dari azab-Mu di hari Engkau kelak membangkitkan hamba-hamba-Mu “ya Allah anugerakanlah surga kepadaku tanpa hisab./"</string>
+    <string name="pray_detail_thirteen">/"YaAllah, sesungguhnya bait ini rumah-Mu. Tanah muliah ini tanah-Mu, negeri aman ini negeri-Mu, hamba ini hamba-Mu anak dari hamba-Mu dan tempat ini adalah tempat orang berlindung pada-Mu dari siksa neraka, maka haramkanla daging dan kulit kami dari siksa api neraka. ya Allah cintakanlah kami pada iman dan biarkanlah ia menghias hati kami, tanamkan kebencian pada diri kami pada perbuatan kufur, fasiq, maksiat dan durhaka serta masukkan kami ini dalam golongan orang yang mendapat petunjuk. Ya Allah lindungilah aku dari azab-Mu di hari Engkau kelak membangkitkan hamba-hamba-Mu ya Allah anugerakanlah surga kepadaku tanpa hisab./"</string>
 
     <string name="pray_title_fourteen">Doa diantara rukun Yamani dan Hajar Aswad</string>
     <string name="pray_detail_fourteen">/"Wahai Tuhan kami, berikanlah kami kebaikan dunia dan kebaikan di akhirat dan hindarkanlah kami dari siksa neraka./"</string>
@@ -156,8 +234,8 @@
 
     <string name="pray_title_twenty_five">Doa dari Marwah ke Shofa (Lintasan Kedua)</string>
     <string name="pray_detail_twenty_five">/"Allah Maha Besar (3X), hanya bagi Allah segala pujian. Tidak ada Tuhan selain Allah yang Maha Esa, Tunggal, dan Tumpuan segala maksud dan hajat, yang tidak beristri dan tidak beranak, tidak bersekutu dalam kekuasaan. Tidak menjadi pelindung kehinaan. Agungkanlah Dia dengan segenap kebesaran.
-    Ya Allah, sesungguhnya Engkau telah berfirman dalam Al Qur`an-Mu : “Berdoalah kepadaKu niscaya akan Kuperkenankan bagimu”. Sekarang kami telah memohon kepada-Mu wahai Tuhan kami. Ampunilah kami seperti halnya Engkau telah janjikan kepada kami, sesungguhnya Engkau tidak memungkiri janji.
-    Ya Tuhan kami, sesungguhnya kami mendengar (seruan) yang menyeru kepada iman (yaitu) “berimanlah” kamu kepada Tuhanmu. “Maka kami pun beriman.
+    Ya Allah, sesungguhnya Engkau telah berfirman dalam Al Qur`an-Mu : Berdoalah kepadaKu niscaya akan Kuperkenankan bagimu. Sekarang kami telah memohon kepada-Mu wahai Tuhan kami. Ampunilah kami seperti halnya Engkau telah janjikan kepada kami, sesungguhnya Engkau tidak memungkiri janji.
+    Ya Tuhan kami, sesungguhnya kami mendengar (seruan) yang menyeru kepada iman (yaitu) berimanlah kamu kepada Tuhanmu. Maka kami pun beriman.
     Ya Tuhan kami, ampunilah dosa-dosa kami dan hapuskanlah kesalahan-kesalahan kami, dan wafatkanlah kami beserta orang baik-baik.
     Ya Tuhan kami berilah kami apa yang telah Engkau janjikan kepada kami dengan perantara rasul-rasul Engkau. Dan janganlah Engkau hinakan kami di hari kiamat. Sesungguhnya Engkau tidak menyalahi janji.  Ya Allah, hanya kepada Engkaulah tumpuan segala sesuatu dan kepada Engkaulah tempat kembali.
     Wahai Tuhan kami, ampunilah dosa-dosa kami dan dosa semua saudara kami seiman yang telah mendahului kami dan jangan Engkau jadikan kedengkian dalam kalbu kami terhadap mereka yang telah beriman. Ya Allah sesunguhnya Engkau Maha Pengasih dan Maha Penyayang./"</string>

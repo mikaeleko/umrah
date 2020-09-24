@@ -68,10 +68,6 @@ class PrayerActivity : AppCompatActivity() {
         pray_title_three.add(resources.getString(R.string.pray_detail_three))
         expandableListDetail[resources.getString(R.string.pray_title_three)] = pray_title_three
 
-        val pray_title_four: MutableList<String> = ArrayList()
-        pray_title_four.add(resources.getString(R.string.pray_arab_four))
-        pray_title_four.add(resources.getString(R.string.pray_detail_four))
-
         val pray_title_five: MutableList<String> = ArrayList()
         pray_title_five.add(resources.getString(R.string.pray_arab_five))
         pray_title_five.add(resources.getString(R.string.pray_detail_five))
@@ -95,7 +91,6 @@ class PrayerActivity : AppCompatActivity() {
         val pray_title_ten: MutableList<String> = ArrayList()
         pray_title_ten.add(resources.getString(R.string.pray_detail_ten))
         pray_title_ten.add(resources.getString(R.string.pray_arab_ten))
-//        pray_title_ten.add(resources.getString(R.string.pray_detail_ten))
 
         val pray_title_eleven: MutableList<String> = ArrayList()
         pray_title_eleven.add(resources.getString(R.string.pray_arab_eleven))
@@ -121,7 +116,7 @@ class PrayerActivity : AppCompatActivity() {
             resources.getString(R.string.pray_arab_fourteen),
             resources.getString(R.string.pray_detail_fourteen))
         setPrayer(resources.getString(R.string.pray_title_fifteen),
-            resources.getString(R.string.pray_detail_fifteen),
+            resources.getString(R.string.pray_arab_fifteen),
             resources.getString(R.string.pray_detail_fifteen))
         setPrayer(resources.getString(R.string.pray_title_sixteen),
             resources.getString(R.string.pray_arab_sixteen),

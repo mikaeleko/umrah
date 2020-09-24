@@ -40,167 +40,115 @@
     <string name="pray_title_one">01. Doa Bepergian</string>
     <string name="pray_title_two">02. Doa Naik Kendaraan</string>
     <string name="pray_title_three">03. Doa Pelebur Dosa Majelis</string>
-    <string name="pray_title_four">04. Doa Apabila Hujan Turun</string>
-    <string name="pray_title_five">05. Doa Masuk WC</string>
-    <string name="pray_title_six">06. Doa Keluar WC</string>
-    <string name="pray_title_seven">07. Doa Sebelum Makan</string>
-    <string name="pray_title_eight">08. Doa Sesudah Makan</string>
-    <string name="pray_title_nine">09. Doa Masuk Masjid</string>
-    <string name="pray_title_ten">10. Doa Setelah Adzan</string>
+    <string name="pray_title_five">04. Doa Masuk WC</string>
+    <string name="pray_title_six">05. Doa Keluar WC</string>
+    <string name="pray_title_seven">06. Doa Sebelum Makan</string>
+    <string name="pray_title_eight">07. Doa Sesudah Makan</string>
+    <string name="pray_title_nine">08. Doa Masuk Masjid</string>
+    <string name="pray_title_ten">09. Doa Setelah Adzan</string>
 
-    <string name="pray_title_eleven">11. Doa Niat Ibadah Umroh</string>
+    <string name="pray_title_eleven">10. Doa Niat Ibadah Umroh</string>
     <string name="pray_detail_eleven">\"Aku sambut panggilan-Mu ya Allah untuk niat berumroh.\"</string>
-    <string name="pray_arab_eleven">أرحب بدعوتك يا الله من أجل نية الحب</string>
 
-    <string name="pray_title_twelve">12. Doa putaran ke 1 dibaca, mulai dari Hajar Aswad sampai Rukun Yamani</string>
+    <string name="pray_title_twelve">11. Doa putaran ke 1 dibaca, mulai dari Hajar Aswad sampai Rukun Yamani</string>
     <string name="pray_detail_twelve">\"Maha suci Allah, segala puji bagi Allah, tidak ada Tuhan selain Allah, Allah Maha Besar. Tiada daya (untuk memperoleh manfaat) dan tiada kemampuan (untuk menolak bahaya) kecual dengan pertolongan Allah yang Maha Mulia dan Maha Agung. Salawat dan salam bagi Rasulullah SAW. Ya Allah, aku tawaf ini karena beriman kepada-Mu, membenarkan kitab-Mu dan memenuhi janji-Mu dan mengikuti Sunnah Nabi-Mu Muhammad SAW. Ya Allah sesungguhnya aku mohon kepada-Mu ampunan, kesehatan dan perlindungan yang kekal dalam menjalankan agama, di dunia dan akhirat dan beruntung memperoleh surga dan terhindar dari siksa neraka.\"</string>
-    <string name="pray_arab_twelve">سبحان الله ولله الحمد لا إله إلا الله الله أكبر. لا حول ولا قوة ولا قوة (لمقاومة الخطر) إلا بعون الله عز وجل. سلوات وتحيات لرسول الله صلى الله عليه وسلم. اللهم أنا طواف على الإيمان بك ، تأكيد كتابك والوفاء بوعدك واتباع سنة النبي محمد صلى. اللهم إني أسألك الاستغفار والصحة والحماية الأبدية في ممارسة الدين في الدنيا والآخرة ولحسن الحظ في الجنة وتجنب عذاب الجحيم</string>
 
-    <string name="pray_title_thirteen">13. Doa putaran ke 2 dibaca mulai dari Hajar Aswad sampai Rukun Yamani</string>
+    <string name="pray_title_thirteen">12. Doa putaran ke 2 dibaca mulai dari Hajar Aswad sampai Rukun Yamani</string>
     <string name="pray_detail_thirteen">YaAllah, sesungguhnya bait ini rumah-Mu. Tanah muliah ini tanah-Mu, negeri aman ini negeri-Mu, hamba ini hamba-Mu anak dari hamba-Mu dan tempat ini adalah tempat orang berlindung pada-Mu dari siksa neraka, maka haramkanla daging dan kulit kami dari siksa api neraka. ya Allah cintakanlah kami pada iman dan biarkanlah ia menghias hati kami, tanamkan kebencian pada diri kami pada perbuatan kufur, fasiq, maksiat dan durhaka serta masukkan kami ini dalam golongan orang yang mendapat petunjuk. Ya Allah lindungilah aku dari azab-Mu di hari Engkau kelak membangkitkan hamba-hamba-Mu. Ya Allah anugerakanlah surga kepadaku tanpa hisab.</string>
-    <string name="pray_arab_thirteen">اللهم هذا المعبد بيتك. هذه الأرض المهيبة هي أرضك ، هذه الأرض الآمنة هي أرضك ، هذا الخادم هو خادمك لخادمك وهذا المكان هو مكان يلجأ إليه الناس من عذاب الجحيم ، لذا احفظ لحمنا وجلدنا من عذاب نار الجحيم. اللهم احنا في الايمان ودعنا نزين قلوبنا ونغرس الكراهية في انفسنا على اعمال الكفر والفسق والفساد والخروج على القانون ووضعنا في مجموعة من الناس الذين يحصلون على التعليمات. اللهم احميني من عقابك يوم تقيم عبيدك. اللهم امنحني الجنة بدون حساب</string>
 
-    <string name="pray_title_fourteen">14. Doa diantara rukun Yamani dan Hajar Aswad</string>
+    <string name="pray_title_fourteen">13. Doa diantara rukun Yamani dan Hajar Aswad</string>
     <string name="pray_detail_fourteen">Wahai Tuhan kami, berikanlah kami kebaikan dunia dan kebaikan di akhirat dan hindarkanlah kami dari siksa neraka.</string>
-    <string name="pray_arab_fourteen">اللهم ارزقنا خير الدنيا والخير في الآخرة واحفظنا من عذاب الجحيم</string>
 
-    <string name="pray_title_fifteen">15. Doa Putaran ke 3</string>
+    <string name="pray_title_fifteen">14. Doa Putaran ke 3</string>
     <string name="pray_detail_fifteen">Ya Allah, aku berlindung kepada-Mu dari keraguan, syirik, percekcokan, kemunafikan, buruk budi pekerti dan penampilan dan kepulangan yang jelek dalam hubungan dengan harta benda, keluarga dan anak-anak. Ya Allah, sesungguhnya aku mohon kepada-Mu keridaan-Mu dan surga. Dan aku berlindung kepada-Mu dari pada murka-Mu dan siksa neraka. Ya Allah, aku berlindung pada-Mu dari fitnah kubur, dan aku berlindung pada-Mu dari fitnah kehidupan dan derita kematian.</string>
-    <string name="pray_arab_fifteen">اللهم إني أعوذ بك من الشك ، الشرك ، الفتنة ، النفاق ، الأخلاق السيئة وسوء المظهر والعودة فيما يتعلق بالممتلكات والأسرة والأطفال. اللهم إني أسألك سرورك وسماءك. وأعوذ بك من غضبك وعذاب الجحيم. اللهم إني أعوذ بك من افتراء القبر ، وأعوذ بك من افتراء الحياة وعذاب الموت</string>
 
-    <string name="pray_title_sixteen">16. Doa Putaran ke 4</string>
+    <string name="pray_title_sixteen">15. Doa Putaran ke 4</string>
     <string name="pray_detail_sixteen">Ya Allah karuniakanlah haji yang mabrur, sa’i yang diterima, dosa yang diampuni, amal saleh yang diterima dan usaha yang tidak akan mengalami rugi. Wahai Tuhan Yang Maha  mengetahui apa-apa yang terkandung dalam hati sanubari. Keluarkanlah aku dari kegelapan ke cahaya yang terang benderang.ya Allah aku mohon kepada-Mu segala hal yang mendatangkan Rahmat-Mu dan keteguhan ampunan-Mu selamat dari segala dosa dan beruntung dengan mendapat berbagai baikan, beruntung memperoleh surga, terhindar dari siksa neraka. Tuhanku, puaskanlah aku dengan anugerah yang telah Engkau berikan, berkatilah untukku atas semua yang Engkau anugerahkan kepadaku dan gantilah apa-apa yang ghaib dari pandanganku dengan kebaikan dari-Mu.</string>
-    <string name="pray_arab_sixteen">اللهم امنح الحج المبارك ، استقبلت الساعي ، مغفرة الخطايا ، استلمت الحسنات والجهد الذي لن يخسر. اللَّهُ عَلَى اللَّهِ عَلَى الْمُحْتَوَى. أخرجني من الظلمات إلى النور الساطع ، اللهم إني أسألك عن كل ما يجلب نعمتك وغفرانك من كل الخطايا ، ومن حسن الحظ أن تحصل على أشياء جيدة ، ومن حسن الحظ أن تحصل على الجنة ، وتجنب عذاب الجحيم. ربي ، إرضي بالهدية التي قدمتها لي ، بارك لي على كل ما أعطيتني واستبدل ما هو غير مرئي من نظري بلطفك.</string>
 
-    <string name="pray_title_seventeen">17. Doa Putaran ke 5</string>
+    <string name="pray_title_seventeen">16. Doa Putaran ke 5</string>
     <string name="pray_detail_seventeen">Ya Allah, lindungilah aku di bawah naungan singgsana-Mu pada hari yang tida ada naungan selain naungan-Mu, dan tidak ada yang kekal kecuali Zat-Mu, dan berilah aku minuman dari telaga Nabi Muhammad SAW dengan suatu minuan yang lezat, segar dan nyaman, sesudah itu aku tidak akan haus untuk selamanya. Ya Allah, aku mohon pada-Mu kebaikan yang dimohonkan oleh Nabi-Mu Muhammad SAW. Ya Allah, aku mohon pada-Mu surga serta nikmat dan apapun yang dapat mendekatkan aku kepadanya baik ucapan, maupun amal perbuatan dan aku berlindung pada-Mu dari neraka serta apapun yang mendekatkan aku kepadanya baik ucapan ataupun amal perbuatan.</string>
-    <string name="pray_arab_seventeen">اللهم احميني برعاية عرشك في يوم ليس له ظل غير ظلك ، ولا شيء أبدي إلا مادتك ، وأعطني مشروب من بحيرة النبي محمد صلى الله عليه وسلم بمشروب لذيذ وطازج ومريح بعد ذلك لن أكون عطشان للأبد. اللهم إني أرجوك من اللطف الذي طلبه رسولك محمد صلى. اللهم إني أتوسل إليك الجنة ونعمها وأي شيء يمكن أن يقربني من كل من الأقوال والأفعال وأقسم إليك من الجحيم وأي شيء يقربني من الأقوال والأفعال</string>
 
-    <string name="pray_title_eightteen">18. Doa Putaran ke 7</string>
+    <string name="pray_title_eightteen">17. Doa Putaran ke 7</string>
     <string name="pray_detail_eightteen">Ya Allah, aku mohon pada-Mu iman yang sempurna, keyakinan yang benar, rizki yang luas, hati yang khusyu’, lidah yang selalu berdzikir (menyebut nama Allah) rizki yang halal dan baik, taubat yang diterima dan taubat sebelum mati, keampunan dan rahmat sesudah mati, keampunan ketika dihisab, keberuntungan memperoleh surga dan terhindar dari neraka dengan rahmat kasih sayang-Mu, wahai Tuhan Yang Maha Perkasa, Yang Maha Pengampun. Tuhanku, berilah aku tambahan ilmu pengetahuan dan gabungkanlah aku ke dalam golongan orang-orang saleh.</string>
-    <string name="pray_arab_eightteen">اللهم إني أسألك عن إيمان كامل ، إيمان حقيقي ، ثروة عريضة ، قلب مهيب ، لسان يُذكر دائماً رزقًا حلالًا وصالحًا ، توبة مقبولة وتوبة قبل الموت والغفران نعمة بعد الموت ، غفران عند الحكم ، حظا سعيدا يكسب السماء ويتجنب الجحيم برحمتك ، يا الله العلي الغفور. ربي ، امنحني معرفة إضافية ودمجني في صفوف الناس التقوى</string>
 
-    <string name="pray_title_nineteen">19. Doa Umroh Setelah Menyelesaikan Thawaf</string>
+    <string name="pray_title_nineteen">18. Doa Umroh Setelah Menyelesaikan Thawaf</string>
     <string name="pray_detail_nineteen">Ya Allah yang memelihara Ka’bah ini, bebaskanlah diri kami, bapak dan ibu kami, saudara-saudara dan anak-anak kami dari siksa neraka, wahai Tuhan Yang Maha Pemurah, Dermawan dan yang mempunyai keutamaan,kemuliaan, kelebihan, anugerah pemberian dan kebaikan. Ya Allah perbaikilah kesudahan segenap urusan kami dan jauhkanlah dari kehinaan dunia dan siksa akhirat. Ya Allah, sesungguhnya aku adalah hamba-Mu, anak dari hambaMu, tegak berdiri merapat di bawah pintu Ka’bah-Mu, menundukkan diri di hadapan-Mu sambil mengharapkan rahmat-Mu, kasih sayang-Mu dan takut akan siksa-Mu. Wahai Tuhan pemilik kebaikan abadi, aku mohon pada-Mu agar Engkau tinggikan namaku, hapuskan dosaku, perbaiki segala urusanku, bersihkan hatiku, berilah cahaya kelak  dalam kuburku. Ampunilah dosaku dan aku mohon pada-Mu martabat yang tinggi di dalam surga.</string>
-    <string name="pray_arab_nineteen">اللهم احفظ هذه الكعبة ، حررنا ، آباءنا وأمهاتنا ، إخواننا وأولادنا من عذاب الجحيم ، اللهم أكرم وأكرم وأصحاب الفضيلة ، المجد ، القوة ، النعمة ، العطايا والخير. . اللهم أصلح نهاية كل أعمالنا وابتعد عن عار العالم وعذاب الآخرة. اللهم إني عبدك ، ابن عبدك ، واقفاً منتصباً تحت باب الكعبة ، راكعاً أمامك وأنت تتوقع رحمتك ومحبتك وخوفك من عذابك. يا رب ، صاحب الخير الأبدي ، أطلب منك أن ترفع اسمي ، تمحو خطاياي ، تصحح كل ما عندي ، تطهر قلبي ، تنير في قبري لاحقًا. اغفر خطيئتي وأرجو منك الكرامة العالية في الجنة</string>
 
-    <string name="pray_title_twenty">20. Doa Umroh Ketika Melakukan Sa’i</string>
+    <string name="pray_title_twenty">19. Doa Umroh Ketika Melakukan Sa’i</string>
     <string name="pray_detail_twenty">Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Aku mulai dengan apa yang telah dimulai oleh Allah dan Rasul-Nya. Sesungguhnya Shafa dan Marwah sebagian dari syiar-syiar (tanda kebesaran) Allah. Maka Barang siapa yang beribadah haji ke Baitullah ataupun berumrah maka tidak ada dosa baginya mengerjakan sa’i antara keduanya. Dan barang siapa yang mengerjakan suatu kebajikan dengan kerelaan hati maka sesungguhnya Allah Maha Penerima Kebaikan lagi Maha Mengetahui.</string>
-    <string name="pray_arab_twenty">بسم الله الرحمن الرحيم. بدأت بما بدأه الله ورسوله. والواقع أن الصفا والمروة جزء من آيات الله العظيمة. ثم من ذهب في الحج إلى بيت الله أو قام بالحج فلا حرج عليه أن يفعله بين الاثنين. ومن عمل فضيلة بقلب راغب فمن المؤكد أن الله هو متلقي الخير والعلم</string>
 
-    <string name="pray_title_twenty_one">21. Doa Di Atas Bukit Shafa Ketika Menghadap Ka’bah (Sebelum Memulai Sa’i)</string>
+    <string name="pray_title_twenty_one">20. Doa Di Atas Bukit Shafa Ketika Menghadap Ka’bah (Sebelum Memulai Sa’i)</string>
     <string name="pray_detail_twenty_one">Allah Maha Besar, Allah Maha Besar, Allah Maha Besar. Segala puji bagi Allah, Allah Maha Besar, atas petunjuk yang diberikan-Nya kepada kami, segala puji bagi Allah atas karunia yang telah dianugerahkan-Nya kepada kami, tidak ada Tuhan selain Allah Yang Maha Esa. Tidak ada sekutu bagi-Nya. Bagi-Nya kerajaan dan pujian. Dialah yang menghidupkan dan mematikan, pada kekuasaan-Nya lah segala kebaikan dan Dia berkuasa atas segala sesuatu. Tiada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, yang telah menepati janji-Nya, menolong hamba-Nya dan menghancurkan sendiri musuh-musuh-Nya. Tidak ada Tuhan selain Allah dan kami tidak menyembah kecuali kepadaNya dengan memurnikan (ikhlas) kepatuhan semata kepada-Nya walaupun orang-orang kafir membenci.</string>
-    <string name="pray_arab_twenty_one">الله أكبر الله أكبر الله أكبر. الحمد لله ، الله أكبر ، على الهدى الذي أعطانا ، والحمد لله على الهبات التي منحنا إياها ، لا إله إلا الله تعالى. لا شريك له. له المملكة والحمد. هو الذي يصنع الحياة والموت ، وفي سلطته كل الخير وهو سلطان على كل شيء. لا إله إلا الله تعالى لا شريك له ، أوفى بوعوده ، وساعد عبيده ، وأهلك أعدائه بأنفسهم. لا إله إلا الله ولا نعبد إلا الله بتطهير طاعته له وإن كره الكافرين.</string>
 
-    <string name="pray_title_twenty_two">22. Doa Sa’i dari Shofa menuju Marwah (Lintasan Pertama)</string>
+    <string name="pray_title_twenty_two">21. Doa Sa’i dari Shofa menuju Marwah (Lintasan Pertama)</string>
     <string name="pray_detail_twenty_two">Allah Maha Besar (4X) dengan segala kebenaran-Nya. Segala puji bagi Allah Yang Maha Agung dengan segala pujian-Nya yang tidak terhingga. Maha Suci Allah Yang Maha Agung dengan pujian, Yang Maha Mulia di waktu pagi dan petang.
     Dan pada sebagian malam, bersujud dan bertasbihlah pada-Nya sepanjang malam. Tidak ada Tuhan selain Allah yang Maha Esa yang menepati janji-Nya membela hamba-hamba-Nya dan tidak ada sesuatu sebelum-Nya dan tidak ada sesuatu pun sesudah-Nya.
     Dialah yang menghidupkan dan mematikan dan Dia adalah Maha Hidup kekal tiada mati dan tiada musnah (hilang) untuk selama-lamanya. Hanya ditangan-Nya-lah terletak kebajikan dan kepada-Nya-lah tempat kembali dan hanya Dialah Yang Maha Kuasa atas segala sesuatu.</string>
-    <string name="pray_arab_twenty_two">الله أكبر (4X) بكل حقه. الحمد لله تعالى بكل ثناءاته اللامتناهية. سبحان الله العظيم بحمد الله أشرف صباحاً ومساءً.
-     وفي بعض الليالي سجدوا وسبحوه طوال الليل. لا إله إلا الله تعالى يفي بوعده بالدفاع عن عباده ولا شيء قبله ولا شيء بعده.
-     هو الذي يصنع الحياة والموت وهو الحي إلى الأبد دون موت ولا هلاك (ضائع) إلى الأبد. الفضيلة فقط في يديه وفيه مكان العودة وهو وحده القدير على كل شيء</string>
 
-    <string name="pray_title_twenty_three">23. Doa Saat Berada di Antara Dua Pilar atau Lampu Hijau</string>
+    <string name="pray_title_twenty_three">22. Doa Saat Berada di Antara Dua Pilar atau Lampu Hijau</string>
     <string name="pray_detail_twenty_three">Ya Allah ampunilah, sayangilah, maafkanlah, bermurah-hatilah, dan hapuskanlah apa-apa yang Engkau ketahui. Sesungguhnya Engkau Maha Mengetahui apa-apa yang kami sendiri tidak tahu. Sesungguhnya Engkau Ya Allah Maha Mulia dan Maha Pemurah.</string>
-    <string name="pray_arab_twenty_three">اللهم اغفر وارحم واغفر وارحم وامحو كل ما تعلم. حقًا أنت عارف بأشياء لا نعرفها نحن أنفسنا. إِنَّكَ اللَّهُ أَجْلٌ وَأَجْلٌ</string>
 
-    <string name="pray_title_twenty_four">24. Doa Saat Mendekati Bukit Marwah</string>
+    <string name="pray_title_twenty_four">23. Doa Saat Mendekati Bukit Marwah</string>
     <string name="pray_detail_twenty_four">Sesungguhnya Shafa dan Marwah sebagian dari syiar-syiar (tanda kebesaran) Allah. Maka barangsiapa yang beribadah haji ke Baitullah ataupun berumroh, maka tidak ada dosa baginya berkeliling (mengerjakan sa’i antara keduanya). Dan barang siapa mengerjakan sesuatu kebajikan dengan kerelaan hati, maka sesungguhnya Allah Maha Menerima Kebaikan lagi Maha Mengetahui.</string>
-    <string name="pray_arab_twenty_four">في الواقع ، الشفا والمروة جزء من رموز الله. فمن حَج إلى بيت الله أو برمره فلا حرج عليه. ومن عمل خيرا بقلب طوعي فالله مقبولا عليما</string>
 
-    <string name="pray_title_twenty_five">25. Doa dari Marwah ke Shofa (Lintasan Kedua)</string>
+    <string name="pray_title_twenty_five">24. Doa dari Marwah ke Shofa (Lintasan Kedua)</string>
     <string name="pray_detail_twenty_five">Allah Maha Besar (3X), hanya bagi Allah segala pujian. Tidak ada Tuhan selain Allah yang Maha Esa, Tunggal, dan Tumpuan segala maksud dan hajat, yang tidak beristri dan tidak beranak, tidak bersekutu dalam kekuasaan. Tidak menjadi pelindung kehinaan. Agungkanlah Dia dengan segenap kebesaran.
-    Ya Allah, sesungguhnya Engkau telah berfirman dalam Al Qur`an-Mu : “Berdoalah kepadaKu niscaya akan Kuperkenankan bagimu”. Sekarang kami telah memohon kepada-Mu wahai Tuhan kami. Ampunilah kami seperti halnya Engkau telah janjikan kepada kami, sesungguhnya Engkau tidak memungkiri janji.
-    Ya Tuhan kami, sesungguhnya kami mendengar (seruan) yang menyeru kepada iman (yaitu) “berimanlah” kamu kepada Tuhanmu. “Maka kami pun beriman.
+    Ya Allah, sesungguhnya Engkau telah berfirman dalam Al Qur`an-Mu : Berdoalah kepadaKu niscaya akan Kuperkenankan bagimu”. Sekarang kami telah memohon kepada-Mu wahai Tuhan kami. Ampunilah kami seperti halnya Engkau telah janjikan kepada kami, sesungguhnya Engkau tidak memungkiri janji.
+    Ya Tuhan kami, sesungguhnya kami mendengar (seruan) yang menyeru kepada iman (yaitu) berimanlah” kamu kepada Tuhanmu. Maka kami pun beriman.
     Ya Tuhan kami, ampunilah dosa-dosa kami dan hapuskanlah kesalahan-kesalahan kami, dan wafatkanlah kami beserta orang baik-baik.
     Ya Tuhan kami berilah kami apa yang telah Engkau janjikan kepada kami dengan perantara rasul-rasul Engkau. Dan janganlah Engkau hinakan kami di hari kiamat. Sesungguhnya Engkau tidak menyalahi janji.  Ya Allah, hanya kepada Engkaulah tumpuan segala sesuatu dan kepada Engkaulah tempat kembali.
     Wahai Tuhan kami, ampunilah dosa-dosa kami dan dosa semua saudara kami seiman yang telah mendahului kami dan jangan Engkau jadikan kedengkian dalam kalbu kami terhadap mereka yang telah beriman. Ya Allah sesunguhnya Engkau Maha Pengasih dan Maha Penyayang.</string>
-    <string name="pray_arab_twenty_five">الله أكبر (3X) إلا لله ولله الحمد. لا إله إلا الله وحده ، ونصرة كل النوايا والرغبات ، الذين ليسوا متزوجين وليس لديهم أطفال ، ليسوا شركاء في السلطة. لا حامية للذل. فمجده بكل عظمة.
-    اللهم إنك قلت في قرآنك: "صلّ إليّ أسمح لك". الآن طلبنا منك يا ربنا. اغفر لنا كما وعدتنا ، حقًا لا تخلف الوعد.
-    يا ربنا نسمع (صرخة) تلك الدعوة إلى الإيمان (أي) "إيمان" بربك. "إذن لدينا إيمان.
-    يا ربنا اغفر ذنوبنا وامسح أخطائنا واغفر لنا بالخير.
-    يا رب أعطنا ما وعدتنا به من خلال رسلك. ولا تحتقرونا يوم القيامة. إنك لم تخلف وعدك. اللهم لك وحدك أساس كل شيء وإليك مكان العودة.
-    يا ربنا اغفر ذنوبنا وذنوب كل إخوتنا في الإيمان الذين سبقونا ولا تحسد قلوبنا لمن آمن. اللهم إنك أنت أرحم و رحيم</string>
 
-    <string name="pray_title_twenty_six">26. Doa dari Shofa ke Marwah (Lintasan Ketiga)</string>
+    <string name="pray_title_twenty_six">25. Doa dari Shofa ke Marwah (Lintasan Ketiga)</string>
     <string name="pray_detail_twenty_six">Allah Maha Besar (3X). Hanya bagi Allah semua pujian. Ya Allah, sempurnakanlah cahaya terang bagi kami, ampunilah kami, sesungguhnya Engkau Maha Kuasa atas segala sesuatu. Ya Allah, sesungguhnya aku mohon kepada-Mu segala kebaikan yang sekarang dan masa yang akan datang dan aku mohon ampunan kepada-Mu akan dosaku serta aku mohon kepada-Mu rahmat-Mu wahai Tuhan Yang Maha Pengasih dari segala yang pengasih.</string>
-    <string name="pray_arab_twenty_six">الله أكبر (3X). إلا لله ولله الحمد. اللهم أكمل لنا النور الساطع اغفر لنا إنا لك سلطان على كل شيء. اللهم إني أسألك كل الخير الآن و في المستقبل و أستغفرك عن ذنوبي و أسألك رحمتك اللهم ارحم كل محبة.</string>
 
-    <string name="pray_title_twenty_seven">27. Doa dari Marwah ke Shofa (Lintasan Keempat)</string>
+    <string name="pray_title_twenty_seven">26. Doa dari Marwah ke Shofa (Lintasan Keempat)</string>
     <string name="pray_detail_twenty_seven">Allah Maha Besar (3X). Segala puji hanya bagi Allah. Ya Allah Tuhanku, aku mohon kepada-Mu dari kebaikan yang Engkau tahu dan berlindung kepada-Mu dari kejahatan yang Engkau tahu dan aku mohon ampun kepada-Mu dari segala kesalahan yang Engkau ketahui, sesungguhnya Engkau Maha Mengetahui yang ghaib. Tidak ada Tuhan selain Allah Maha Raja yang sebenar-benarnya. Muhammad utusan Allah yang selalu menepati janji lagi terpercaya.
     Ya Allah sebagaimana Engkau telah menunjuki aku memilih Islam, maka aku mohon kepada-Mu untuk tidak mencabutnya, sehingga aku meninggal dalam keadaan muslim. Ya Allah berilah cahaya terang dalam hati, telinga, dan penglihatanku. Ya Allah lapangkanlah dadaku dan mudahkan bagiku segala urusan. Dan aku berlindung kepada-Mu dari godaan bisikan hati, kekacauan urusan, dan fitnah kubur.
     Ya Allah aku berlindung kepada-Mu dari kejahatan yang bersembunyi di waktu malam dan siang hari, serta kejahatan yang dibawa angin lalu, wahai Tuhan Yang Maha Pengasih dari segenap yang pengasih. Ya Allah Maha Suci Engkau, kami tidak bisa menyembah-Mu dengan pengabdian yang semestinya. Ya Allah, Maha Suci Engkau, kami tidak bisa menyebutMu (dzikir) dengan semestinya.</string>
-    <string name="pray_arab_twenty_seven">الله أكبر (3X). الحمد لله وحده. اللهم إني أسألك الخير الذي تعلمه وأعوذ بك من الشر الذي تعلمه وأسألك أن تغفر لي كل الأخطاء التي تعلمها حقًا أنت على علم بالغيب. لا اله الا الله الملك الحقيقي. محمد رسول الله الذي يفي بوعوده دائما وثق مرة أخرى.
-    اللهم إنك أريتني على اختيار الإسلام ، فأرجو ألا تنقضه ، حتى أموت مسلما. اللهم ارزقني نور قلبي واذني ورؤيتي. اللهم ارفع صدري ويسر لي كل الامور. وأنا أعوذ بك من فتنة وساسات القلب وخلط الأعمال والافتراء على القبر.
-    اللهم إني أعوذ بك من الشر الذي يختبئ في الليل والنهار ومن شر الريح اللهم رحمه الله أجمعين. اللهم قدوسك لا نستطيع أن نعبدك بإخلاص. اللهم لك سبحانه وتعالى لا يمكن أن ندعوك (الذكر) صحيح</string>
 
-    <string name="pray_title_twenty_eight">28. Doa dari Shofa ke Marwah (Lintasan Kelima)</string>
+    <string name="pray_title_twenty_eight">27. Doa dari Shofa ke Marwah (Lintasan Kelima)</string>
     <string name="pray_detail_twenty_eight">Allah Maha Besar (3X). Segala puji hanya untuk Allah, Maha Suci Engkau, kami tidak mensyukuri-Mu dengan syukur yang semestinya. Ya Allah, Maha Suci Engkau. Alangkah Agung Zat-Mu Ya Allah.
     Ya Allah, cintakanlah kami kepada iman dan hiaskanlah di hati kami, tanamkanlah kebencian pada diri kami pada perbuatan kufur, fasik, dan durhaka. Jadikanlah kami dari golongan orang-orang yang mendapat petunjuk.</string>
-    <string name="pray_arab_twenty_eight">الله أكبر (3X). الحمد لله وحده سبحانك ، لا نشكرك بامتنان. اللهم لك المجد. ما أعظم ثروتك يا الله.
-     اللهم احبنا على الايمان وزينه في قلوبنا واغرس في نفوسنا البغضاء على الكفر والشر والعصيان. اجعلنا من فئة المرشدين</string>
 
-    <string name="pray_title_twenty_nine">29. Doa dari Marwah ke Shofa (Lintasan Keenam)</string>
+    <string name="pray_title_twenty_nine">28. Doa dari Marwah ke Shofa (Lintasan Keenam)</string>
     <string name="pray_detail_twenty_nine">Allah Maha Besar (3X). Segala puji hanya untuk Allah. Tidak ada Tuhan selain Allah Yang Maha Esa, yang menepati janji-Nya dan mengalahkan sendiri musuh-musuh-Nya. Tiada Tuhan selain Allah. Dan kami tidak menyembah selain Dia dengan memurnikan kepatuhan kepadaNya, sekalipun orang-orang kafir membenci.
     Ya Allah aku memohon kepada-Mu petunjuk, ketakwaan, pengendalian diri, dan kekayaan. Ya Allah, pada-Mu lah segala puji seperti yang kami ucapkan. Ya Allah aku mohon kepada-Mu dari murka-Mu dan siksa neraka dan apapun yang dapat mendekatkan aku padanya (neraka), baik ucapan ataupun amal perbuatan.
     Ya Allah hanya dengan nur cahaya-Mu kami ini mendapat petunjuk, dengan pemberianmu kami merasa cukup  dan dalam naungan-Mu, nikmat-Mu, anugerah-Mu dan kebajikan-Mu jualah  kami ini berada di waktu pagi dan petang. Engkaulah yang mula pertama, tidak ada sesuatu pun yang ada sebelum-Mu dan Engkau pula lah yang paling akhir dan tidak ada sesuatu pun yang ada di belakang (sesudah) Mu, Engkaulah yang lahir (nyata), maka tidak ada sesuatu pun yang di atas Engkau. Engkau pula lah yang batin, maka tidak ada sesuatu pun di bawah-Mu.
     Kami berlindung kepada-Mu dari pailit, malas, siksa kubur, dan fitnah kekayaan serta kami mohon kepada-Mu kemenangan memperoleh surga, dan keselamatan dari api neraka.</string>
-    <string name="pray_arab_twenty_nine">الله أكبر (3X). الحمد لله وحده. لا إله إلا الله تعالى يفي بوعوده ويغلب على أعدائه. لا إله إلا الله. ولا نعبد غيره بتطهير طاعته ، وإن كان غير المؤمنين يكرهونه.
-    اللهم إني أسألك الهداية والتقوى والتعفف والمال. اللهم لك الحمد كما نقول. اللهم إني أسألك من غضبك وعذاب جهنم وكل ما يقربني إليه قولاً وفعلاً.
-    اللهم إنك فقط بنورك ننال الهدى وبعطاؤك نشعر بالاكتفاء وفي ظلك وبركاتك ونعمتك وصلاحك نحن صباحا ومساء. أنت الأول ، لا يوجد شيء أمامك وأنت أيضًا آخر ولا يوجد شيء خلفك (بعد) ، أنت الشخص الذي ولد (حقيقي) ، لذلك لا شيء فوق. أنت. أنت الذات الداخلية ، لذلك لا يوجد شيء تحتك.
-    نعوذ بك من الإفلاس والكسل وعذاب القبر والافتراء بالمال ونسألك انتصار الجنة والخلاص من نار جهنم.</string>
 
-    <string name="pray_title_thirty">30. Doa dari Shofa ke Marwah (Lintasan Ketujuh)</string>
+    <string name="pray_title_thirty">29. Doa dari Shofa ke Marwah (Lintasan Ketujuh)</string>
     <string name="pray_detail_thirty">Allah Maha Besar (3X). Segala puji bagi Allah dengan pujian yang tidak terhingga. Ya Allah, cintakanlah aku kepada iman dan hiaskanlah ia di kalbuku. Tanamkanlah kebencian padaku perbuatan kufur, fasiq, dan durhaka. Dan jadikanlah pula aku dari golongan orang yang mendapat petunjuk.</string>
-    <string name="pray_arab_thirty">الله أكبر (3X). الحمد لله بحمد غير محدود. اللهم احبني الايمان وزينه في قلبي. زرع الكراهية في داخلي على أعمال الكفر والفسق والعصيان. وأيضا تجعلني من فئة الناس الذين يتلقون التوجيه</string>
 
-    <string name="pray_title_thirty_one">31. Doa Setelah Melaksanakan Sa’i</string>
+    <string name="pray_title_thirty_one">30. Doa Setelah Melaksanakan Sa’i</string>
     <string name="pray_detail_thirty_one">Ya Allah Ya Tuhan kami, terimalah amalan kami, berilah perlindungan kepada kami, maafkanlah kesalahan kami dan berilah pertolongan kepada kami untuk taat dan bersyukur kepada-Mu. Janganlah Engkau jadikan kami bergantung selain kepada-Mu. Matikanlah kami dalam iman dan Islam secara sempurna dalam keridhaan-Mu.
     Ya Allah rahmatilah kami sehingga mampu meninggalkan segala kejahatan selama hidup kami dan rahmatilah kami sehingga tidak berbuat hal yang tidak berguna. Karuniakanlah kepada kami sikap pandang yang baik  terhadap apa-apa yang membuat-Mu ridha terhadap kami. Wahai Tuhan Yang Maha Pengasih dari segala yang pengasih.</string>
-    <string name="pray_arab_thirty_one">اللهم ارحمنا الله ، اقبل ممارستنا ، واحفظنا ، واغفر أخطائنا ، وساعدنا على طاعتك وشكرنا. لا تجعلنا نعتمد على غيرك. أطفئنا في الإيمان والإسلام تمامًا في سعادتك
-     اللهم ارحمنا حتى نتمكن من ترك كل شر في حياتنا ورحمنا حتى لا نفعل شيئاً غير نافع. أعطنا موقفًا جيدًا تجاه ما يجعلك مسرورًا بنا. اللهم رحمه الله من كل رحيم</string>
 
-    <string name="pray_title_thirty_two">32. Doa Ketika Tahallul (Memotong atau Menggunting Rambut)</string>
+    <string name="pray_title_thirty_two">31. Doa Ketika Tahallul (Memotong atau Menggunting Rambut)</string>
     <string name="pray_detail_thirty_two">Allah Maha Besar, Allah Maha Besar, Allah Maha Besar. Segala puji bagi Allah yang telah memberi petunjuk kepada kita dan segala puji bagi Allah tentang apa-apa yang telah Allah karuniakan kepada kami.
     Ya Allah ini ubun-ubunku, maka terimalah dariku  (amal perbuatanku) dan ampunilah dosa-dosaku.
     Ya Allah, ampunilah orang-orang yang mencukur dan memendekkan rambutnya wahai Tuhan yang Maha Luas ampunan-Nya. Ya Allah tetapkanlah untuk diriku setiap helai rambut kebajikan dan hapuskanlah untukku dengan setiap helai rambut kejelekan. Dan angkatlah derajatku di sisimu.</string>
-    <string name="pray_arab_thirty_two">الله أكبر الله أكبر الله أكبر. الحمد لله الذي وفقنا ، والحمد لله على ما أنعم الله علينا.
-     اللهم ان هذا تاجي فاقبله مني واغفر ذنوبي.
-     اللهم اغفر لمن يحلق ويقصر اللهم اغفر له. اللهم اجعل لي كل شعرة فضيلة وامسحها لي بكل شعر قبيح. و ارفع درجتي الى جانبك</string>
 
-    <string name="pray_title_thirty_three">33. Doa Setelah Selesai Menggunting Rambut</string>
+    <string name="pray_title_thirty_three">32. Doa Setelah Selesai Menggunting Rambut</string>
     <string name="pray_detail_thirty_three">Segala puji bagi Allah yang telah menyelesaikan manasik kami, Ya Allah tambahkanlah kepada kami iman, keyakinan, dan pertolongan dan ampunilah kami, kedua orang tua kami dan seluruh kaum muslimin dan muslimat.</string>
-    <string name="pray_arab_thirty_three">الحمد لله على إتمام مناسكنا ، اللهم أضف إلينا إيمانًا وإيمانًا وساعدنا واغفر لنا ولآبائنا ولكل المسلمين والمسلمين.</string>
 
     <string name="pray_detail_one">\""Ya Allah, Engkau adalah teman dalam perjalanan dan pengganti dalam keluarga. Ya Allah, aku berlindung kepada-Mu dari kesulitan perjalanan, kesedihan tempat kembali, doa orang yang teraniaya, dan dari pandangan yang menyedihkan dalam keluarga dan harta.\" (HR. Tirmdzi dan Ibnu Majah dengan sahad yang shahih</string>
-    <string name="pray_arab_one">\""اللهم أنت رفيق سفر وبدل في الأسرة. اللهم إني أعوذ بك من مشاق الرحلة ، حزن مكان العودة ، صلاة المضطهدين ، ومن النظرة المحزنة على الأسرة والممتلكات ".</string>
 
     <string name="pray_detail_two">\""Maha Suci Tuhan yang telah menundukkan semua ini bagi kami padahal kami sebelumnya tidak mampu menguasainya, dan sesungguhnya kami akan kembali kepada Tuhan kami."</string>
-    <string name="pray_arab_two">فسبحان الله الذي خضع كل هذا لنا رغم أننا لم نكن قادرين على إتقانه ، وفي الحقيقة سنعود إلى ربنا.</string>
 
     <string name="pray_detail_three">\"Maha Suci Engkau, ya Allah, aku memujiMu. Aku bersaksi bahwa tiada Tuhan yang berhak disembah kecuali Engkau, aku minta ampun dan bertaubat kepadaMu.\"</string>
-    <string name="pray_arab_three">سبحانك اللهم لك الحمد. أشهد أن لا إله ليعبد إلا أنت ، أستغفر وأتوب إليك</string>
-
-    <string name="pray_detail_four">\"Allahumma shoyyiban nafi\'an\" [Ya Allah turunkanlah pada kami hujan yang bermanfaat]</string>
-    <string name="pray_arab_four">اللهم ارزقنا مطر نافع</string>
 
     <string name="pray_detail_five">\"Ya Allah, sesungguhnya aku berlindung kepadaMu dari segala kejahatan dan kotoran.\"</string>
-    <string name="pray_arab_five">اللهم أحميك من كل شر وقذارة</string>
 
     <string name="pray_detail_six">\"Dengan mengharap ampunanMu, segala puji milik Allah yang telah menghilangkan kotoran dari badanku dan yang telah menyejahterakan.\"</string>
-    <string name="pray_arab_six">آملين أن تغفر له الحمد لله الذي أزال الشوائب من جسدي وازدهر</string>
 
     <string name="pray_detail_seven">\"Ya Allah, berkahilah untukku dalam sesuatu yang Engkau rezekikan kepadaku, dan peliharalah aku dari siksa neraka.\"</string>
-    <string name="pray_arab_seven">اللهم باركني في شيء دعمتموني واحميني من عذاب الجحيم</string>
 
     <string name="pray_detail_eight">\"Segala puji bagi Allah yang telah memberi kami makan dan minum serta menjadikan kami termasuk golongan orang muslim.\"</string>
-    <string name="pray_arab_eight">الحمد لله على إعطائنا الطعام والشراب ، وجعلنا مسلمين</string>
 
     <string name="pray_detail_nine">\"Ya Allah, bukakanlah untukku pintu-pintu rahmatMu.\"</string>
-    <string name="pray_arab_nine">اللهم افتح لي أبواب رحمتك</string>
 
     <string name="pray_detail_ten">\"Ya Allah, Tuhan pemilik panggilan yang sempurna (adzan) ini dan shalat (wajib) yang didirikan. Berilah al-wasilah (derajat di surga), dan al-fadhilah (keutamaan) kepada nabi Muhammad. Dan bangkitkanlah beliau sehingga bisa menempati kedudukan terpuji yang Engkau janjikan.\"</string>
-    <string name="pray_arab_ten">اللهم إن الله صاحب هذه الدعوة المثالية والصلاة. أعط الوسيلة (الفضائل في السماء) ، والفضيلة (الفضيلة) للنبي محمد. ورفعه حتى يتمكن من شغل المنصب الجدير بالثناء الذي وعدت به</string>
 
     <string name="action_information">Information</string>
     <string name="information">Info</string>
@@ -267,4 +215,5 @@
         \n7. Melakukan sai antara Safa dan Marwah 7 kali bolak balik.  - Sai dimulai dari Safa ke Marwah yang dihitung sebagai satu kali perjalanan. Jadi, Safa ke Marwah 1, Marwah ke Safa 2, dan seterusnya. Sai berakhir di Marwah. Sai dikerjakan dengan berjalan, tapi pada batas di antara 2 lampu hijau, berlari-lari kecil.  - Sai ini merupakan penghargaan Allah SWT kepada istri Nabi Ibrahim. Saat itu istri Nabi Ibrahim, Siti Hajar, bolak-balik antara Safa dan Marwah sebanyak 7 kali dalam rangka mencari air untuk minum putra beliau yaitu Nabi Ismail.
         \n8. Melakukan tahallul.  - Tahallul adalah akhir dari pelaksanaan ibadah umroh yang ditandai dengan bercukur. Untuk laki-laki lebih baik dicukur sampai gundul, tapi jika tidak sampai gundul tak mengapa. Sedangkan untuk wanita hanya dicukur ala kadarnya.  - Dengan melakukan tahallul, maka sudah sempurna tata cara umroh lengkap sesuai sunnah.   \n"</string>
     <string name="howto">Panduan</string>
+
 </resources>
